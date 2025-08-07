@@ -51,8 +51,9 @@ enum LevelNodeShape
 	GRAVITY = 3;
 	LOBBYTERMINAL = 4;
 	PARTICLE_EMITTER = 5;
+	SOUND = 6;
 
-	__END_OF_SPECIAL_PARTS__ = 6;
+	__END_OF_SPECIAL_PARTS__ = 7;
 
 	CUBE = 1000;
 	SPHERE = 1001;
@@ -60,6 +61,7 @@ enum LevelNodeShape
 	PYRAMID = 1003;
 	PRISM = 1004;
 	CONE = 1005;
+	PYRAMIDSQUARE = 1006;
 }
 
 enum LevelNodeMaterial
@@ -224,11 +226,28 @@ message TriggerTargetAnimation
 
 	uint64 objectID = 1;
 	string animationName = 2;
-	
+
 	bool loop = 3; //Make the animation repeat endlessly until it is stopped
 	bool reverse = 4; //Make the animation play backwards
 
 	Mode mode = 10;
+}
+
+message TriggerTargetSound
+{
+	enum Mode
+	{
+		STOP = 0;
+		START = 1;
+		TOGGLE = 2; //Toggles between start and stop
+		RESTART = 3; //Like start, but will always play from the beginning (or end if reverse is on)
+		RESET = 4; //Reset to the initial state, playing looped default animation if there is one
+	}
+
+	uint64 objectID = 1;
+	
+	Mode mode = 2;
+	bool repeat = 3;
 }
 
 message TriggerTargetSubLevel
@@ -243,6 +262,7 @@ message TriggerTarget
 	{
 		TriggerTargetAnimation triggerTargetAnimation = 1;
 		TriggerTargetSubLevel triggerTargetSubLevel = 2;
+		TriggerTargetSound triggerTargetSound = 3;
 	}
 }
 
@@ -260,6 +280,64 @@ message LevelNodeTrigger
 	repeated TriggerTarget triggerTargets = 7;
 }
 
+message SoundGeneratorParameters
+{
+	enum WaveType
+	{
+		Square = 0;
+		Sawtooth = 1;
+		Sine = 2;
+		Noise = 3;
+	}
+
+	float volume = 1;
+
+	WaveType waveType = 2;
+
+	float envelopeAttack = 3;
+	float envelopeSustain = 4;
+	float envelopeRelease = 5;
+	float envelopePunch = 6;
+
+	float frequencyBase = 7;
+	float frequencyLimit = 8;
+	float frequencyRamp = 9;
+	float frequencyDeltaRamp = 10;
+
+	float vibratoStrength = 11;
+	float vibratoSpeed = 12;
+
+	float pitchJumpMod = 13;
+	float pitchJumpSpeed = 14;
+
+	float dutyCycle = 15;
+	float dutyCycleRamp = 16;
+
+	float repeatSpeed = 17;
+
+	float flangerFrequency = 18;
+	float flangerDepth = 19;
+
+	float lowPassFilterFrequency = 20;
+	float highPassFilterFrequency = 21;
+	
+	float reverbDelay = 22;
+	float reverbDecayFactor = 23;
+}
+
+message LevelNodeSound
+{
+	Vector position = 1;
+	Quaternion rotation = 7;
+
+	SoundGeneratorParameters parameters = 2;
+	string name = 3;
+	bool repeat = 4;
+	float volume = 5;
+	bool startActive = 6;
+	float maxRangeFactor = 8;
+}
+
 message AnimationFrame
 {
 	float time = 1;
@@ -275,10 +353,17 @@ message Animation
 		PINGPONG = 1; //After the last frame, play the animation backwards
 	}
 
+	enum Interpolation
+	{
+		LINEAR = 0;
+		CATMULL_ROM = 1;
+	}
+
 	string name = 1;
 	repeated AnimationFrame frames = 2;
 	Direction direction = 3;
 	float speed = 4;
+	Interpolation interpolation = 5;
 }
 
 message LevelNode
@@ -297,8 +382,10 @@ message LevelNode
 		LevelNodeLobbyTerminal levelNodeLobbyTerminal = 9;
 		LevelNodeTrigger levelNodeTrigger = 10;
 		LevelNodeParticleEmitter levelNodeParticleEmitter = 11;
+		LevelNodeSound levelNodeSound = 12;
 	}
 
 	repeated Animation animations = 15; //A level node can have any number (might limit it in the UI) of named animations
 	int32 activeAnimation = 16; //Index into animations, -1 if it is not playing an animation at the start, ignored if there are no animations (so will default to 0 in that case)
+	bool wantsCreationHistory = 17; //Player still dragging this from the menu and creation is yet to be added to the undo history.
 }

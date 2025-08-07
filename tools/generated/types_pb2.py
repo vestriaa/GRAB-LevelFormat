@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0btypes.proto\x12\tCOD.Types\")\n\x06Vector\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x1f\n\x07Vector2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"8\n\nQuaternion\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x12\t\n\x01w\x18\x04 \x01(\x02\"3\n\x05\x43olor\x12\t\n\x01r\x18\x01 \x01(\x02\x12\t\n\x01g\x18\x02 \x01(\x02\x12\t\n\x01\x62\x18\x03 \x01(\x02\x12\t\n\x01\x61\x18\x04 \x01(\x02\"\xb5\x01\n\x10\x41mbienceSettings\x12(\n\x0eskyZenithColor\x18\x01 \x01(\x0b\x32\x10.COD.Types.Color\x12)\n\x0fskyHorizonColor\x18\x02 \x01(\x0b\x32\x10.COD.Types.Color\x12\x13\n\x0bsunAltitude\x18\x03 \x01(\x02\x12\x12\n\nsunAzimuth\x18\x04 \x01(\x02\x12\x0f\n\x07sunSize\x18\x05 \x01(\x02\x12\x12\n\nfogDensity\x18\x06 \x01(\x02\"\xaa\x01\n\x0eLevelNodeGroup\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12(\n\nchildNodes\x18\x04 \x03(\x0b\x32\x14.COD.Types.LevelNode\"|\n\x0eLevelNodeStart\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x02 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x0e\n\x06radius\x18\x03 \x01(\x02\x12\x0c\n\x04name\x18\x04 \x01(\t\"F\n\x0fLevelNodeFinish\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\x0e\n\x06radius\x18\x02 \x01(\x02\"\xc6\x02\n\x0fLevelNodeStatic\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12.\n\x08material\x18\x02 \x01(\x0e\x32\x1c.COD.Types.LevelNodeMaterial\x12#\n\x08position\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x04 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x05 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12 \n\x06\x63olor1\x18\x06 \x01(\x0b\x32\x10.COD.Types.Color\x12 \n\x06\x63olor2\x18\t \x01(\x0b\x32\x10.COD.Types.Color\x12\x0e\n\x06isNeon\x18\x07 \x01(\x08\x12\x15\n\risTransparent\x18\x08 \x01(\x08\"\x87\x02\n\x12LevelNodeCrumbling\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12.\n\x08material\x18\x02 \x01(\x0e\x32\x1c.COD.Types.LevelNodeMaterial\x12#\n\x08position\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x04 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x05 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x12\n\nstableTime\x18\x06 \x01(\x02\x12\x13\n\x0brespawnTime\x18\x07 \x01(\x02\"k\n\rLevelNodeSign\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x02 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x0c\n\x04text\x18\x03 \x01(\t\"\xf9\x01\n\x10LevelNodeGravity\x12.\n\x04mode\x18\x01 \x01(\x0e\x32 .COD.Types.LevelNodeGravity.Mode\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12$\n\tdirection\x18\x05 \x01(\x0b\x32\x11.COD.Types.Vector\"\x1f\n\x04Mode\x12\x0b\n\x07\x44\x45\x46\x41ULT\x10\x00\x12\n\n\x06NOLEGS\x10\x01\"f\n\x16LevelNodeLobbyTerminal\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\"\xaf\x04\n\x18LevelNodeParticleEmitter\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x1a\n\x12particlesPerSecond\x18\x05 \x01(\r\x12$\n\x08lifeSpan\x18\x06 \x01(\x0b\x32\x12.COD.Types.Vector2\x12$\n\nstartColor\x18\x07 \x01(\x0b\x32\x10.COD.Types.Color\x12\"\n\x08\x65ndColor\x18\x08 \x01(\x0b\x32\x10.COD.Types.Color\x12%\n\tstartSize\x18\t \x01(\x0b\x32\x12.COD.Types.Vector2\x12#\n\x07\x65ndSize\x18\n \x01(\x0b\x32\x12.COD.Types.Vector2\x12#\n\x08velocity\x18\x0e \x01(\x0b\x32\x11.COD.Types.Vector\x12&\n\x0bvelocityMin\x18\x0f \x01(\x0b\x32\x11.COD.Types.Vector\x12&\n\x0bvelocityMax\x18\x10 \x01(\x0b\x32\x11.COD.Types.Vector\x12*\n\x0f\x61\x63\x63\x65lerationMin\x18\x11 \x01(\x0b\x32\x11.COD.Types.Vector\x12*\n\x0f\x61\x63\x63\x65lerationMax\x18\x12 \x01(\x0b\x32\x11.COD.Types.Vector\"\x84\x01\n\x12TriggerSourceBasic\x12\x30\n\x04type\x18\x01 \x01(\x0e\x32\".COD.Types.TriggerSourceBasic.Type\"<\n\x04Type\x12\x08\n\x04HAND\x10\x00\x12\x08\n\x04HEAD\x10\x01\x12\x0b\n\x07GRAPPLE\x10\x02\x12\x08\n\x04\x46\x45\x45T\x10\x03\x12\t\n\x05\x42LOCK\x10\x04\"W\n\rTriggerSource\x12;\n\x12triggerSourceBasic\x18\x01 \x01(\x0b\x32\x1d.COD.Types.TriggerSourceBasicH\x00\x42\t\n\x07\x63ontent\"\xeb\x01\n\x16TriggerTargetAnimation\x12\x10\n\x08objectID\x18\x01 \x01(\x04\x12\x15\n\ranimationName\x18\x02 \x01(\t\x12\x0c\n\x04loop\x18\x03 \x01(\x08\x12\x0f\n\x07reverse\x18\x04 \x01(\x08\x12\x34\n\x04mode\x18\n \x01(\x0e\x32&.COD.Types.TriggerTargetAnimation.Mode\"S\n\x04Mode\x12\x08\n\x04STOP\x10\x00\x12\t\n\x05START\x10\x01\x12\n\n\x06TOGGLE\x10\x02\x12\x12\n\x0eTOGGLE_REVERSE\x10\x03\x12\x0b\n\x07RESTART\x10\x04\x12\t\n\x05RESET\x10\x05\"D\n\x15TriggerTargetSubLevel\x12\x17\n\x0flevelIdentifier\x18\x01 \x01(\t\x12\x12\n\nspawnPoint\x18\x02 \x01(\t\"\xa2\x01\n\rTriggerTarget\x12\x43\n\x16triggerTargetAnimation\x18\x01 \x01(\x0b\x32!.COD.Types.TriggerTargetAnimationH\x00\x12\x41\n\x15triggerTargetSubLevel\x18\x02 \x01(\x0b\x32 .COD.Types.TriggerTargetSubLevelH\x00\x42\t\n\x07\x63ontent\"\xa2\x02\n\x10LevelNodeTrigger\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x10\n\x08isShared\x18\x05 \x01(\x08\x12\x30\n\x0etriggerSources\x18\x06 \x03(\x0b\x32\x18.COD.Types.TriggerSource\x12\x30\n\x0etriggerTargets\x18\x07 \x03(\x0b\x32\x18.COD.Types.TriggerTarget\"l\n\x0e\x41nimationFrame\x12\x0c\n\x04time\x18\x01 \x01(\x02\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\"\xae\x01\n\tAnimation\x12\x0c\n\x04name\x18\x01 \x01(\t\x12)\n\x06\x66rames\x18\x02 \x03(\x0b\x32\x19.COD.Types.AnimationFrame\x12\x31\n\tdirection\x18\x03 \x01(\x0e\x32\x1e.COD.Types.Animation.Direction\x12\r\n\x05speed\x18\x04 \x01(\x02\"&\n\tDirection\x12\x0b\n\x07RESTART\x10\x00\x12\x0c\n\x08PINGPONG\x10\x01\"\xb3\x05\n\tLevelNode\x12\x10\n\x08isLocked\x18\x06 \x01(\x08\x12\x33\n\x0elevelNodeStart\x18\x01 \x01(\x0b\x32\x19.COD.Types.LevelNodeStartH\x00\x12\x35\n\x0flevelNodeFinish\x18\x02 \x01(\x0b\x32\x1a.COD.Types.LevelNodeFinishH\x00\x12\x35\n\x0flevelNodeStatic\x18\x03 \x01(\x0b\x32\x1a.COD.Types.LevelNodeStaticH\x00\x12\x31\n\rlevelNodeSign\x18\x04 \x01(\x0b\x32\x18.COD.Types.LevelNodeSignH\x00\x12;\n\x12levelNodeCrumbling\x18\x05 \x01(\x0b\x32\x1d.COD.Types.LevelNodeCrumblingH\x00\x12\x33\n\x0elevelNodeGroup\x18\x07 \x01(\x0b\x32\x19.COD.Types.LevelNodeGroupH\x00\x12\x37\n\x10levelNodeGravity\x18\x08 \x01(\x0b\x32\x1b.COD.Types.LevelNodeGravityH\x00\x12\x43\n\x16levelNodeLobbyTerminal\x18\t \x01(\x0b\x32!.COD.Types.LevelNodeLobbyTerminalH\x00\x12\x37\n\x10levelNodeTrigger\x18\n \x01(\x0b\x32\x1b.COD.Types.LevelNodeTriggerH\x00\x12G\n\x18levelNodeParticleEmitter\x18\x0b \x01(\x0b\x32#.COD.Types.LevelNodeParticleEmitterH\x00\x12(\n\nanimations\x18\x0f \x03(\x0b\x32\x14.COD.Types.Animation\x12\x17\n\x0f\x61\x63tiveAnimation\x18\x10 \x01(\x05\x42\t\n\x07\x63ontent*\xd1\x01\n\x0eLevelNodeShape\x12\t\n\x05START\x10\x00\x12\n\n\x06\x46INISH\x10\x01\x12\x08\n\x04SIGN\x10\x02\x12\x0b\n\x07GRAVITY\x10\x03\x12\x11\n\rLOBBYTERMINAL\x10\x04\x12\x14\n\x10PARTICLE_EMITTER\x10\x05\x12\x1c\n\x18__END_OF_SPECIAL_PARTS__\x10\x06\x12\t\n\x04\x43UBE\x10\xe8\x07\x12\x0b\n\x06SPHERE\x10\xe9\x07\x12\r\n\x08\x43YLINDER\x10\xea\x07\x12\x0c\n\x07PYRAMID\x10\xeb\x07\x12\n\n\x05PRISM\x10\xec\x07\x12\t\n\x04\x43ONE\x10\xed\x07*\xc4\x01\n\x11LevelNodeMaterial\x12\x0b\n\x07\x44\x45\x46\x41ULT\x10\x00\x12\r\n\tGRABBABLE\x10\x01\x12\x07\n\x03ICE\x10\x02\x12\x08\n\x04LAVA\x10\x03\x12\x08\n\x04WOOD\x10\x04\x12\x0e\n\nGRAPPLABLE\x10\x05\x12\x13\n\x0fGRAPPLABLE_LAVA\x10\x06\x12\x17\n\x13GRABBABLE_CRUMBLING\x10\x07\x12\x13\n\x0f\x44\x45\x46\x41ULT_COLORED\x10\x08\x12\x0c\n\x08\x42OUNCING\x10\t\x12\x08\n\x04SNOW\x10\n\x12\x0b\n\x07TRIGGER\x10\x0b\x62\x06proto3'
+  serialized_pb=b'\n\x0btypes.proto\x12\tCOD.Types\")\n\x06Vector\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x1f\n\x07Vector2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"8\n\nQuaternion\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x12\t\n\x01w\x18\x04 \x01(\x02\"3\n\x05\x43olor\x12\t\n\x01r\x18\x01 \x01(\x02\x12\t\n\x01g\x18\x02 \x01(\x02\x12\t\n\x01\x62\x18\x03 \x01(\x02\x12\t\n\x01\x61\x18\x04 \x01(\x02\"\xb5\x01\n\x10\x41mbienceSettings\x12(\n\x0eskyZenithColor\x18\x01 \x01(\x0b\x32\x10.COD.Types.Color\x12)\n\x0fskyHorizonColor\x18\x02 \x01(\x0b\x32\x10.COD.Types.Color\x12\x13\n\x0bsunAltitude\x18\x03 \x01(\x02\x12\x12\n\nsunAzimuth\x18\x04 \x01(\x02\x12\x0f\n\x07sunSize\x18\x05 \x01(\x02\x12\x12\n\nfogDensity\x18\x06 \x01(\x02\"\xaa\x01\n\x0eLevelNodeGroup\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12(\n\nchildNodes\x18\x04 \x03(\x0b\x32\x14.COD.Types.LevelNode\"|\n\x0eLevelNodeStart\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x02 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x0e\n\x06radius\x18\x03 \x01(\x02\x12\x0c\n\x04name\x18\x04 \x01(\t\"F\n\x0fLevelNodeFinish\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\x0e\n\x06radius\x18\x02 \x01(\x02\"\xc6\x02\n\x0fLevelNodeStatic\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12.\n\x08material\x18\x02 \x01(\x0e\x32\x1c.COD.Types.LevelNodeMaterial\x12#\n\x08position\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x04 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x05 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12 \n\x06\x63olor1\x18\x06 \x01(\x0b\x32\x10.COD.Types.Color\x12 \n\x06\x63olor2\x18\t \x01(\x0b\x32\x10.COD.Types.Color\x12\x0e\n\x06isNeon\x18\x07 \x01(\x08\x12\x15\n\risTransparent\x18\x08 \x01(\x08\"\x87\x02\n\x12LevelNodeCrumbling\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12.\n\x08material\x18\x02 \x01(\x0e\x32\x1c.COD.Types.LevelNodeMaterial\x12#\n\x08position\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x04 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x05 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x12\n\nstableTime\x18\x06 \x01(\x02\x12\x13\n\x0brespawnTime\x18\x07 \x01(\x02\"k\n\rLevelNodeSign\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x02 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x0c\n\x04text\x18\x03 \x01(\t\"\xf9\x01\n\x10LevelNodeGravity\x12.\n\x04mode\x18\x01 \x01(\x0e\x32 .COD.Types.LevelNodeGravity.Mode\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12$\n\tdirection\x18\x05 \x01(\x0b\x32\x11.COD.Types.Vector\"\x1f\n\x04Mode\x12\x0b\n\x07\x44\x45\x46\x41ULT\x10\x00\x12\n\n\x06NOLEGS\x10\x01\"f\n\x16LevelNodeLobbyTerminal\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\"\xaf\x04\n\x18LevelNodeParticleEmitter\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x1a\n\x12particlesPerSecond\x18\x05 \x01(\r\x12$\n\x08lifeSpan\x18\x06 \x01(\x0b\x32\x12.COD.Types.Vector2\x12$\n\nstartColor\x18\x07 \x01(\x0b\x32\x10.COD.Types.Color\x12\"\n\x08\x65ndColor\x18\x08 \x01(\x0b\x32\x10.COD.Types.Color\x12%\n\tstartSize\x18\t \x01(\x0b\x32\x12.COD.Types.Vector2\x12#\n\x07\x65ndSize\x18\n \x01(\x0b\x32\x12.COD.Types.Vector2\x12#\n\x08velocity\x18\x0e \x01(\x0b\x32\x11.COD.Types.Vector\x12&\n\x0bvelocityMin\x18\x0f \x01(\x0b\x32\x11.COD.Types.Vector\x12&\n\x0bvelocityMax\x18\x10 \x01(\x0b\x32\x11.COD.Types.Vector\x12*\n\x0f\x61\x63\x63\x65lerationMin\x18\x11 \x01(\x0b\x32\x11.COD.Types.Vector\x12*\n\x0f\x61\x63\x63\x65lerationMax\x18\x12 \x01(\x0b\x32\x11.COD.Types.Vector\"\x84\x01\n\x12TriggerSourceBasic\x12\x30\n\x04type\x18\x01 \x01(\x0e\x32\".COD.Types.TriggerSourceBasic.Type\"<\n\x04Type\x12\x08\n\x04HAND\x10\x00\x12\x08\n\x04HEAD\x10\x01\x12\x0b\n\x07GRAPPLE\x10\x02\x12\x08\n\x04\x46\x45\x45T\x10\x03\x12\t\n\x05\x42LOCK\x10\x04\"W\n\rTriggerSource\x12;\n\x12triggerSourceBasic\x18\x01 \x01(\x0b\x32\x1d.COD.Types.TriggerSourceBasicH\x00\x42\t\n\x07\x63ontent\"\xeb\x01\n\x16TriggerTargetAnimation\x12\x10\n\x08objectID\x18\x01 \x01(\x04\x12\x15\n\ranimationName\x18\x02 \x01(\t\x12\x0c\n\x04loop\x18\x03 \x01(\x08\x12\x0f\n\x07reverse\x18\x04 \x01(\x08\x12\x34\n\x04mode\x18\n \x01(\x0e\x32&.COD.Types.TriggerTargetAnimation.Mode\"S\n\x04Mode\x12\x08\n\x04STOP\x10\x00\x12\t\n\x05START\x10\x01\x12\n\n\x06TOGGLE\x10\x02\x12\x12\n\x0eTOGGLE_REVERSE\x10\x03\x12\x0b\n\x07RESTART\x10\x04\x12\t\n\x05RESET\x10\x05\"\xa9\x01\n\x12TriggerTargetSound\x12\x10\n\x08objectID\x18\x01 \x01(\x04\x12\x30\n\x04mode\x18\x02 \x01(\x0e\x32\".COD.Types.TriggerTargetSound.Mode\x12\x0e\n\x06repeat\x18\x03 \x01(\x08\"?\n\x04Mode\x12\x08\n\x04STOP\x10\x00\x12\t\n\x05START\x10\x01\x12\n\n\x06TOGGLE\x10\x02\x12\x0b\n\x07RESTART\x10\x03\x12\t\n\x05RESET\x10\x04\"D\n\x15TriggerTargetSubLevel\x12\x17\n\x0flevelIdentifier\x18\x01 \x01(\t\x12\x12\n\nspawnPoint\x18\x02 \x01(\t\"\xdf\x01\n\rTriggerTarget\x12\x43\n\x16triggerTargetAnimation\x18\x01 \x01(\x0b\x32!.COD.Types.TriggerTargetAnimationH\x00\x12\x41\n\x15triggerTargetSubLevel\x18\x02 \x01(\x0b\x32 .COD.Types.TriggerTargetSubLevelH\x00\x12;\n\x12triggerTargetSound\x18\x03 \x01(\x0b\x32\x1d.COD.Types.TriggerTargetSoundH\x00\x42\t\n\x07\x63ontent\"\xa2\x02\n\x10LevelNodeTrigger\x12(\n\x05shape\x18\x01 \x01(\x0e\x32\x19.COD.Types.LevelNodeShape\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12 \n\x05scale\x18\x03 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x04 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x10\n\x08isShared\x18\x05 \x01(\x08\x12\x30\n\x0etriggerSources\x18\x06 \x03(\x0b\x32\x18.COD.Types.TriggerSource\x12\x30\n\x0etriggerTargets\x18\x07 \x03(\x0b\x32\x18.COD.Types.TriggerTarget\"\xa5\x05\n\x18SoundGeneratorParameters\x12\x0e\n\x06volume\x18\x01 \x01(\x02\x12>\n\x08waveType\x18\x02 \x01(\x0e\x32,.COD.Types.SoundGeneratorParameters.WaveType\x12\x16\n\x0e\x65nvelopeAttack\x18\x03 \x01(\x02\x12\x17\n\x0f\x65nvelopeSustain\x18\x04 \x01(\x02\x12\x17\n\x0f\x65nvelopeRelease\x18\x05 \x01(\x02\x12\x15\n\renvelopePunch\x18\x06 \x01(\x02\x12\x15\n\rfrequencyBase\x18\x07 \x01(\x02\x12\x16\n\x0e\x66requencyLimit\x18\x08 \x01(\x02\x12\x15\n\rfrequencyRamp\x18\t \x01(\x02\x12\x1a\n\x12\x66requencyDeltaRamp\x18\n \x01(\x02\x12\x17\n\x0fvibratoStrength\x18\x0b \x01(\x02\x12\x14\n\x0cvibratoSpeed\x18\x0c \x01(\x02\x12\x14\n\x0cpitchJumpMod\x18\r \x01(\x02\x12\x16\n\x0epitchJumpSpeed\x18\x0e \x01(\x02\x12\x11\n\tdutyCycle\x18\x0f \x01(\x02\x12\x15\n\rdutyCycleRamp\x18\x10 \x01(\x02\x12\x13\n\x0brepeatSpeed\x18\x11 \x01(\x02\x12\x18\n\x10\x66langerFrequency\x18\x12 \x01(\x02\x12\x14\n\x0c\x66langerDepth\x18\x13 \x01(\x02\x12\x1e\n\x16lowPassFilterFrequency\x18\x14 \x01(\x02\x12\x1f\n\x17highPassFilterFrequency\x18\x15 \x01(\x02\x12\x13\n\x0breverbDelay\x18\x16 \x01(\x02\x12\x19\n\x11reverbDecayFactor\x18\x17 \x01(\x02\"9\n\x08WaveType\x12\n\n\x06Square\x10\x00\x12\x0c\n\x08Sawtooth\x10\x01\x12\x08\n\x04Sine\x10\x02\x12\t\n\x05Noise\x10\x03\"\xf2\x01\n\x0eLevelNodeSound\x12#\n\x08position\x18\x01 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x07 \x01(\x0b\x32\x15.COD.Types.Quaternion\x12\x37\n\nparameters\x18\x02 \x01(\x0b\x32#.COD.Types.SoundGeneratorParameters\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x0e\n\x06repeat\x18\x04 \x01(\x08\x12\x0e\n\x06volume\x18\x05 \x01(\x02\x12\x13\n\x0bstartActive\x18\x06 \x01(\x08\x12\x16\n\x0emaxRangeFactor\x18\x08 \x01(\x02\"l\n\x0e\x41nimationFrame\x12\x0c\n\x04time\x18\x01 \x01(\x02\x12#\n\x08position\x18\x02 \x01(\x0b\x32\x11.COD.Types.Vector\x12\'\n\x08rotation\x18\x03 \x01(\x0b\x32\x15.COD.Types.Quaternion\"\x97\x02\n\tAnimation\x12\x0c\n\x04name\x18\x01 \x01(\t\x12)\n\x06\x66rames\x18\x02 \x03(\x0b\x32\x19.COD.Types.AnimationFrame\x12\x31\n\tdirection\x18\x03 \x01(\x0e\x32\x1e.COD.Types.Animation.Direction\x12\r\n\x05speed\x18\x04 \x01(\x02\x12\x39\n\rinterpolation\x18\x05 \x01(\x0e\x32\".COD.Types.Animation.Interpolation\"&\n\tDirection\x12\x0b\n\x07RESTART\x10\x00\x12\x0c\n\x08PINGPONG\x10\x01\",\n\rInterpolation\x12\n\n\x06LINEAR\x10\x00\x12\x0f\n\x0b\x43\x41TMULL_ROM\x10\x01\"\x86\x06\n\tLevelNode\x12\x10\n\x08isLocked\x18\x06 \x01(\x08\x12\x33\n\x0elevelNodeStart\x18\x01 \x01(\x0b\x32\x19.COD.Types.LevelNodeStartH\x00\x12\x35\n\x0flevelNodeFinish\x18\x02 \x01(\x0b\x32\x1a.COD.Types.LevelNodeFinishH\x00\x12\x35\n\x0flevelNodeStatic\x18\x03 \x01(\x0b\x32\x1a.COD.Types.LevelNodeStaticH\x00\x12\x31\n\rlevelNodeSign\x18\x04 \x01(\x0b\x32\x18.COD.Types.LevelNodeSignH\x00\x12;\n\x12levelNodeCrumbling\x18\x05 \x01(\x0b\x32\x1d.COD.Types.LevelNodeCrumblingH\x00\x12\x33\n\x0elevelNodeGroup\x18\x07 \x01(\x0b\x32\x19.COD.Types.LevelNodeGroupH\x00\x12\x37\n\x10levelNodeGravity\x18\x08 \x01(\x0b\x32\x1b.COD.Types.LevelNodeGravityH\x00\x12\x43\n\x16levelNodeLobbyTerminal\x18\t \x01(\x0b\x32!.COD.Types.LevelNodeLobbyTerminalH\x00\x12\x37\n\x10levelNodeTrigger\x18\n \x01(\x0b\x32\x1b.COD.Types.LevelNodeTriggerH\x00\x12G\n\x18levelNodeParticleEmitter\x18\x0b \x01(\x0b\x32#.COD.Types.LevelNodeParticleEmitterH\x00\x12\x33\n\x0elevelNodeSound\x18\x0c \x01(\x0b\x32\x19.COD.Types.LevelNodeSoundH\x00\x12(\n\nanimations\x18\x0f \x03(\x0b\x32\x14.COD.Types.Animation\x12\x17\n\x0f\x61\x63tiveAnimation\x18\x10 \x01(\x05\x12\x1c\n\x14wantsCreationHistory\x18\x11 \x01(\x08\x42\t\n\x07\x63ontent*\xf0\x01\n\x0eLevelNodeShape\x12\t\n\x05START\x10\x00\x12\n\n\x06\x46INISH\x10\x01\x12\x08\n\x04SIGN\x10\x02\x12\x0b\n\x07GRAVITY\x10\x03\x12\x11\n\rLOBBYTERMINAL\x10\x04\x12\x14\n\x10PARTICLE_EMITTER\x10\x05\x12\t\n\x05SOUND\x10\x06\x12\x1c\n\x18__END_OF_SPECIAL_PARTS__\x10\x07\x12\t\n\x04\x43UBE\x10\xe8\x07\x12\x0b\n\x06SPHERE\x10\xe9\x07\x12\r\n\x08\x43YLINDER\x10\xea\x07\x12\x0c\n\x07PYRAMID\x10\xeb\x07\x12\n\n\x05PRISM\x10\xec\x07\x12\t\n\x04\x43ONE\x10\xed\x07\x12\x12\n\rPYRAMIDSQUARE\x10\xee\x07*\xc4\x01\n\x11LevelNodeMaterial\x12\x0b\n\x07\x44\x45\x46\x41ULT\x10\x00\x12\r\n\tGRABBABLE\x10\x01\x12\x07\n\x03ICE\x10\x02\x12\x08\n\x04LAVA\x10\x03\x12\x08\n\x04WOOD\x10\x04\x12\x0e\n\nGRAPPLABLE\x10\x05\x12\x13\n\x0fGRAPPLABLE_LAVA\x10\x06\x12\x17\n\x13GRABBABLE_CRUMBLING\x10\x07\x12\x13\n\x0f\x44\x45\x46\x41ULT_COLORED\x10\x08\x12\x0c\n\x08\x42OUNCING\x10\t\x12\x08\n\x04SNOW\x10\n\x12\x0b\n\x07TRIGGER\x10\x0b\x62\x06proto3'
 )
 
 _LEVELNODESHAPE = _descriptor.EnumDescriptor(
@@ -61,45 +61,55 @@ _LEVELNODESHAPE = _descriptor.EnumDescriptor(
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='__END_OF_SPECIAL_PARTS__', index=6, number=6,
+      name='SOUND', index=6, number=6,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='CUBE', index=7, number=1000,
+      name='__END_OF_SPECIAL_PARTS__', index=7, number=7,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='SPHERE', index=8, number=1001,
+      name='CUBE', index=8, number=1000,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='CYLINDER', index=9, number=1002,
+      name='SPHERE', index=9, number=1001,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='PYRAMID', index=10, number=1003,
+      name='CYLINDER', index=10, number=1002,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='PRISM', index=11, number=1004,
+      name='PYRAMID', index=11, number=1003,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
     _descriptor.EnumValueDescriptor(
-      name='CONE', index=12, number=1005,
+      name='PRISM', index=12, number=1004,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='CONE', index=13, number=1005,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='PYRAMIDSQUARE', index=14, number=1006,
       serialized_options=None,
       type=None,
       create_key=_descriptor._internal_create_key),
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4362,
-  serialized_end=4571,
+  serialized_start=5708,
+  serialized_end=5948,
 )
 _sym_db.RegisterEnumDescriptor(_LEVELNODESHAPE)
 
@@ -174,8 +184,8 @@ _LEVELNODEMATERIAL = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=4574,
-  serialized_end=4770,
+  serialized_start=5951,
+  serialized_end=6147,
 )
 _sym_db.RegisterEnumDescriptor(_LEVELNODEMATERIAL)
 
@@ -186,13 +196,15 @@ SIGN = 2
 GRAVITY = 3
 LOBBYTERMINAL = 4
 PARTICLE_EMITTER = 5
-__END_OF_SPECIAL_PARTS__ = 6
+SOUND = 6
+__END_OF_SPECIAL_PARTS__ = 7
 CUBE = 1000
 SPHERE = 1001
 CYLINDER = 1002
 PYRAMID = 1003
 PRISM = 1004
 CONE = 1005
+PYRAMIDSQUARE = 1006
 DEFAULT = 0
 GRABBABLE = 1
 ICE = 2
@@ -317,6 +329,81 @@ _TRIGGERTARGETANIMATION_MODE = _descriptor.EnumDescriptor(
 )
 _sym_db.RegisterEnumDescriptor(_TRIGGERTARGETANIMATION_MODE)
 
+_TRIGGERTARGETSOUND_MODE = _descriptor.EnumDescriptor(
+  name='Mode',
+  full_name='COD.Types.TriggerTargetSound.Mode',
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='STOP', index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='START', index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='TOGGLE', index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='RESTART', index=3, number=3,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='RESET', index=4, number=4,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=2959,
+  serialized_end=3022,
+)
+_sym_db.RegisterEnumDescriptor(_TRIGGERTARGETSOUND_MODE)
+
+_SOUNDGENERATORPARAMETERS_WAVETYPE = _descriptor.EnumDescriptor(
+  name='WaveType',
+  full_name='COD.Types.SoundGeneratorParameters.WaveType',
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='Square', index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='Sawtooth', index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='Sine', index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='Noise', index=3, number=3,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=4234,
+  serialized_end=4291,
+)
+_sym_db.RegisterEnumDescriptor(_SOUNDGENERATORPARAMETERS_WAVETYPE)
+
 _ANIMATION_DIRECTION = _descriptor.EnumDescriptor(
   name='Direction',
   full_name='COD.Types.Animation.Direction',
@@ -337,10 +424,35 @@ _ANIMATION_DIRECTION = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=3627,
-  serialized_end=3665,
+  serialized_start=4844,
+  serialized_end=4882,
 )
 _sym_db.RegisterEnumDescriptor(_ANIMATION_DIRECTION)
+
+_ANIMATION_INTERPOLATION = _descriptor.EnumDescriptor(
+  name='Interpolation',
+  full_name='COD.Types.Animation.Interpolation',
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='LINEAR', index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='CATMULL_ROM', index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=4884,
+  serialized_end=4928,
+)
+_sym_db.RegisterEnumDescriptor(_ANIMATION_INTERPOLATION)
 
 
 _VECTOR = _descriptor.Descriptor(
@@ -1308,6 +1420,53 @@ _TRIGGERTARGETANIMATION = _descriptor.Descriptor(
 )
 
 
+_TRIGGERTARGETSOUND = _descriptor.Descriptor(
+  name='TriggerTargetSound',
+  full_name='COD.Types.TriggerTargetSound',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='objectID', full_name='COD.Types.TriggerTargetSound.objectID', index=0,
+      number=1, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='mode', full_name='COD.Types.TriggerTargetSound.mode', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='repeat', full_name='COD.Types.TriggerTargetSound.repeat', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+    _TRIGGERTARGETSOUND_MODE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2853,
+  serialized_end=3022,
+)
+
+
 _TRIGGERTARGETSUBLEVEL = _descriptor.Descriptor(
   name='TriggerTargetSubLevel',
   full_name='COD.Types.TriggerTargetSubLevel',
@@ -1342,8 +1501,8 @@ _TRIGGERTARGETSUBLEVEL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2852,
-  serialized_end=2920,
+  serialized_start=3024,
+  serialized_end=3092,
 )
 
 
@@ -1369,6 +1528,13 @@ _TRIGGERTARGET = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='triggerTargetSound', full_name='COD.Types.TriggerTarget.triggerTargetSound', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -1386,8 +1552,8 @@ _TRIGGERTARGET = _descriptor.Descriptor(
       create_key=_descriptor._internal_create_key,
     fields=[]),
   ],
-  serialized_start=2923,
-  serialized_end=3085,
+  serialized_start=3095,
+  serialized_end=3318,
 )
 
 
@@ -1460,8 +1626,276 @@ _LEVELNODETRIGGER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3088,
-  serialized_end=3378,
+  serialized_start=3321,
+  serialized_end=3611,
+)
+
+
+_SOUNDGENERATORPARAMETERS = _descriptor.Descriptor(
+  name='SoundGeneratorParameters',
+  full_name='COD.Types.SoundGeneratorParameters',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='volume', full_name='COD.Types.SoundGeneratorParameters.volume', index=0,
+      number=1, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='waveType', full_name='COD.Types.SoundGeneratorParameters.waveType', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='envelopeAttack', full_name='COD.Types.SoundGeneratorParameters.envelopeAttack', index=2,
+      number=3, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='envelopeSustain', full_name='COD.Types.SoundGeneratorParameters.envelopeSustain', index=3,
+      number=4, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='envelopeRelease', full_name='COD.Types.SoundGeneratorParameters.envelopeRelease', index=4,
+      number=5, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='envelopePunch', full_name='COD.Types.SoundGeneratorParameters.envelopePunch', index=5,
+      number=6, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='frequencyBase', full_name='COD.Types.SoundGeneratorParameters.frequencyBase', index=6,
+      number=7, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='frequencyLimit', full_name='COD.Types.SoundGeneratorParameters.frequencyLimit', index=7,
+      number=8, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='frequencyRamp', full_name='COD.Types.SoundGeneratorParameters.frequencyRamp', index=8,
+      number=9, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='frequencyDeltaRamp', full_name='COD.Types.SoundGeneratorParameters.frequencyDeltaRamp', index=9,
+      number=10, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='vibratoStrength', full_name='COD.Types.SoundGeneratorParameters.vibratoStrength', index=10,
+      number=11, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='vibratoSpeed', full_name='COD.Types.SoundGeneratorParameters.vibratoSpeed', index=11,
+      number=12, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='pitchJumpMod', full_name='COD.Types.SoundGeneratorParameters.pitchJumpMod', index=12,
+      number=13, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='pitchJumpSpeed', full_name='COD.Types.SoundGeneratorParameters.pitchJumpSpeed', index=13,
+      number=14, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='dutyCycle', full_name='COD.Types.SoundGeneratorParameters.dutyCycle', index=14,
+      number=15, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='dutyCycleRamp', full_name='COD.Types.SoundGeneratorParameters.dutyCycleRamp', index=15,
+      number=16, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='repeatSpeed', full_name='COD.Types.SoundGeneratorParameters.repeatSpeed', index=16,
+      number=17, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='flangerFrequency', full_name='COD.Types.SoundGeneratorParameters.flangerFrequency', index=17,
+      number=18, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='flangerDepth', full_name='COD.Types.SoundGeneratorParameters.flangerDepth', index=18,
+      number=19, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='lowPassFilterFrequency', full_name='COD.Types.SoundGeneratorParameters.lowPassFilterFrequency', index=19,
+      number=20, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='highPassFilterFrequency', full_name='COD.Types.SoundGeneratorParameters.highPassFilterFrequency', index=20,
+      number=21, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='reverbDelay', full_name='COD.Types.SoundGeneratorParameters.reverbDelay', index=21,
+      number=22, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='reverbDecayFactor', full_name='COD.Types.SoundGeneratorParameters.reverbDecayFactor', index=22,
+      number=23, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+    _SOUNDGENERATORPARAMETERS_WAVETYPE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3614,
+  serialized_end=4291,
+)
+
+
+_LEVELNODESOUND = _descriptor.Descriptor(
+  name='LevelNodeSound',
+  full_name='COD.Types.LevelNodeSound',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='position', full_name='COD.Types.LevelNodeSound.position', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='rotation', full_name='COD.Types.LevelNodeSound.rotation', index=1,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='parameters', full_name='COD.Types.LevelNodeSound.parameters', index=2,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='name', full_name='COD.Types.LevelNodeSound.name', index=3,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='repeat', full_name='COD.Types.LevelNodeSound.repeat', index=4,
+      number=4, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='volume', full_name='COD.Types.LevelNodeSound.volume', index=5,
+      number=5, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='startActive', full_name='COD.Types.LevelNodeSound.startActive', index=6,
+      number=6, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='maxRangeFactor', full_name='COD.Types.LevelNodeSound.maxRangeFactor', index=7,
+      number=8, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4294,
+  serialized_end=4536,
 )
 
 
@@ -1506,8 +1940,8 @@ _ANIMATIONFRAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3380,
-  serialized_end=3488,
+  serialized_start=4538,
+  serialized_end=4646,
 )
 
 
@@ -1547,12 +1981,20 @@ _ANIMATION = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='interpolation', full_name='COD.Types.Animation.interpolation', index=4,
+      number=5, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
   nested_types=[],
   enum_types=[
     _ANIMATION_DIRECTION,
+    _ANIMATION_INTERPOLATION,
   ],
   serialized_options=None,
   is_extendable=False,
@@ -1560,8 +2002,8 @@ _ANIMATION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3491,
-  serialized_end=3665,
+  serialized_start=4649,
+  serialized_end=4928,
 )
 
 
@@ -1651,16 +2093,30 @@ _LEVELNODE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='animations', full_name='COD.Types.LevelNode.animations', index=11,
+      name='levelNodeSound', full_name='COD.Types.LevelNode.levelNodeSound', index=11,
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='animations', full_name='COD.Types.LevelNode.animations', index=12,
       number=15, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='activeAnimation', full_name='COD.Types.LevelNode.activeAnimation', index=12,
+      name='activeAnimation', full_name='COD.Types.LevelNode.activeAnimation', index=13,
       number=16, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='wantsCreationHistory', full_name='COD.Types.LevelNode.wantsCreationHistory', index=14,
+      number=17, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
@@ -1681,8 +2137,8 @@ _LEVELNODE = _descriptor.Descriptor(
       create_key=_descriptor._internal_create_key,
     fields=[]),
   ],
-  serialized_start=3668,
-  serialized_end=4359,
+  serialized_start=4931,
+  serialized_end=5705,
 )
 
 _AMBIENCESETTINGS.fields_by_name['skyZenithColor'].message_type = _COLOR
@@ -1737,25 +2193,38 @@ _TRIGGERSOURCE.oneofs_by_name['content'].fields.append(
 _TRIGGERSOURCE.fields_by_name['triggerSourceBasic'].containing_oneof = _TRIGGERSOURCE.oneofs_by_name['content']
 _TRIGGERTARGETANIMATION.fields_by_name['mode'].enum_type = _TRIGGERTARGETANIMATION_MODE
 _TRIGGERTARGETANIMATION_MODE.containing_type = _TRIGGERTARGETANIMATION
+_TRIGGERTARGETSOUND.fields_by_name['mode'].enum_type = _TRIGGERTARGETSOUND_MODE
+_TRIGGERTARGETSOUND_MODE.containing_type = _TRIGGERTARGETSOUND
 _TRIGGERTARGET.fields_by_name['triggerTargetAnimation'].message_type = _TRIGGERTARGETANIMATION
 _TRIGGERTARGET.fields_by_name['triggerTargetSubLevel'].message_type = _TRIGGERTARGETSUBLEVEL
+_TRIGGERTARGET.fields_by_name['triggerTargetSound'].message_type = _TRIGGERTARGETSOUND
 _TRIGGERTARGET.oneofs_by_name['content'].fields.append(
   _TRIGGERTARGET.fields_by_name['triggerTargetAnimation'])
 _TRIGGERTARGET.fields_by_name['triggerTargetAnimation'].containing_oneof = _TRIGGERTARGET.oneofs_by_name['content']
 _TRIGGERTARGET.oneofs_by_name['content'].fields.append(
   _TRIGGERTARGET.fields_by_name['triggerTargetSubLevel'])
 _TRIGGERTARGET.fields_by_name['triggerTargetSubLevel'].containing_oneof = _TRIGGERTARGET.oneofs_by_name['content']
+_TRIGGERTARGET.oneofs_by_name['content'].fields.append(
+  _TRIGGERTARGET.fields_by_name['triggerTargetSound'])
+_TRIGGERTARGET.fields_by_name['triggerTargetSound'].containing_oneof = _TRIGGERTARGET.oneofs_by_name['content']
 _LEVELNODETRIGGER.fields_by_name['shape'].enum_type = _LEVELNODESHAPE
 _LEVELNODETRIGGER.fields_by_name['position'].message_type = _VECTOR
 _LEVELNODETRIGGER.fields_by_name['scale'].message_type = _VECTOR
 _LEVELNODETRIGGER.fields_by_name['rotation'].message_type = _QUATERNION
 _LEVELNODETRIGGER.fields_by_name['triggerSources'].message_type = _TRIGGERSOURCE
 _LEVELNODETRIGGER.fields_by_name['triggerTargets'].message_type = _TRIGGERTARGET
+_SOUNDGENERATORPARAMETERS.fields_by_name['waveType'].enum_type = _SOUNDGENERATORPARAMETERS_WAVETYPE
+_SOUNDGENERATORPARAMETERS_WAVETYPE.containing_type = _SOUNDGENERATORPARAMETERS
+_LEVELNODESOUND.fields_by_name['position'].message_type = _VECTOR
+_LEVELNODESOUND.fields_by_name['rotation'].message_type = _QUATERNION
+_LEVELNODESOUND.fields_by_name['parameters'].message_type = _SOUNDGENERATORPARAMETERS
 _ANIMATIONFRAME.fields_by_name['position'].message_type = _VECTOR
 _ANIMATIONFRAME.fields_by_name['rotation'].message_type = _QUATERNION
 _ANIMATION.fields_by_name['frames'].message_type = _ANIMATIONFRAME
 _ANIMATION.fields_by_name['direction'].enum_type = _ANIMATION_DIRECTION
+_ANIMATION.fields_by_name['interpolation'].enum_type = _ANIMATION_INTERPOLATION
 _ANIMATION_DIRECTION.containing_type = _ANIMATION
+_ANIMATION_INTERPOLATION.containing_type = _ANIMATION
 _LEVELNODE.fields_by_name['levelNodeStart'].message_type = _LEVELNODESTART
 _LEVELNODE.fields_by_name['levelNodeFinish'].message_type = _LEVELNODEFINISH
 _LEVELNODE.fields_by_name['levelNodeStatic'].message_type = _LEVELNODESTATIC
@@ -1766,6 +2235,7 @@ _LEVELNODE.fields_by_name['levelNodeGravity'].message_type = _LEVELNODEGRAVITY
 _LEVELNODE.fields_by_name['levelNodeLobbyTerminal'].message_type = _LEVELNODELOBBYTERMINAL
 _LEVELNODE.fields_by_name['levelNodeTrigger'].message_type = _LEVELNODETRIGGER
 _LEVELNODE.fields_by_name['levelNodeParticleEmitter'].message_type = _LEVELNODEPARTICLEEMITTER
+_LEVELNODE.fields_by_name['levelNodeSound'].message_type = _LEVELNODESOUND
 _LEVELNODE.fields_by_name['animations'].message_type = _ANIMATION
 _LEVELNODE.oneofs_by_name['content'].fields.append(
   _LEVELNODE.fields_by_name['levelNodeStart'])
@@ -1797,6 +2267,9 @@ _LEVELNODE.fields_by_name['levelNodeTrigger'].containing_oneof = _LEVELNODE.oneo
 _LEVELNODE.oneofs_by_name['content'].fields.append(
   _LEVELNODE.fields_by_name['levelNodeParticleEmitter'])
 _LEVELNODE.fields_by_name['levelNodeParticleEmitter'].containing_oneof = _LEVELNODE.oneofs_by_name['content']
+_LEVELNODE.oneofs_by_name['content'].fields.append(
+  _LEVELNODE.fields_by_name['levelNodeSound'])
+_LEVELNODE.fields_by_name['levelNodeSound'].containing_oneof = _LEVELNODE.oneofs_by_name['content']
 DESCRIPTOR.message_types_by_name['Vector'] = _VECTOR
 DESCRIPTOR.message_types_by_name['Vector2'] = _VECTOR2
 DESCRIPTOR.message_types_by_name['Quaternion'] = _QUATERNION
@@ -1814,9 +2287,12 @@ DESCRIPTOR.message_types_by_name['LevelNodeParticleEmitter'] = _LEVELNODEPARTICL
 DESCRIPTOR.message_types_by_name['TriggerSourceBasic'] = _TRIGGERSOURCEBASIC
 DESCRIPTOR.message_types_by_name['TriggerSource'] = _TRIGGERSOURCE
 DESCRIPTOR.message_types_by_name['TriggerTargetAnimation'] = _TRIGGERTARGETANIMATION
+DESCRIPTOR.message_types_by_name['TriggerTargetSound'] = _TRIGGERTARGETSOUND
 DESCRIPTOR.message_types_by_name['TriggerTargetSubLevel'] = _TRIGGERTARGETSUBLEVEL
 DESCRIPTOR.message_types_by_name['TriggerTarget'] = _TRIGGERTARGET
 DESCRIPTOR.message_types_by_name['LevelNodeTrigger'] = _LEVELNODETRIGGER
+DESCRIPTOR.message_types_by_name['SoundGeneratorParameters'] = _SOUNDGENERATORPARAMETERS
+DESCRIPTOR.message_types_by_name['LevelNodeSound'] = _LEVELNODESOUND
 DESCRIPTOR.message_types_by_name['AnimationFrame'] = _ANIMATIONFRAME
 DESCRIPTOR.message_types_by_name['Animation'] = _ANIMATION
 DESCRIPTOR.message_types_by_name['LevelNode'] = _LEVELNODE
@@ -1943,6 +2419,13 @@ TriggerTargetAnimation = _reflection.GeneratedProtocolMessageType('TriggerTarget
   })
 _sym_db.RegisterMessage(TriggerTargetAnimation)
 
+TriggerTargetSound = _reflection.GeneratedProtocolMessageType('TriggerTargetSound', (_message.Message,), {
+  'DESCRIPTOR' : _TRIGGERTARGETSOUND,
+  '__module__' : 'types_pb2'
+  # @@protoc_insertion_point(class_scope:COD.Types.TriggerTargetSound)
+  })
+_sym_db.RegisterMessage(TriggerTargetSound)
+
 TriggerTargetSubLevel = _reflection.GeneratedProtocolMessageType('TriggerTargetSubLevel', (_message.Message,), {
   'DESCRIPTOR' : _TRIGGERTARGETSUBLEVEL,
   '__module__' : 'types_pb2'
@@ -1963,6 +2446,20 @@ LevelNodeTrigger = _reflection.GeneratedProtocolMessageType('LevelNodeTrigger', 
   # @@protoc_insertion_point(class_scope:COD.Types.LevelNodeTrigger)
   })
 _sym_db.RegisterMessage(LevelNodeTrigger)
+
+SoundGeneratorParameters = _reflection.GeneratedProtocolMessageType('SoundGeneratorParameters', (_message.Message,), {
+  'DESCRIPTOR' : _SOUNDGENERATORPARAMETERS,
+  '__module__' : 'types_pb2'
+  # @@protoc_insertion_point(class_scope:COD.Types.SoundGeneratorParameters)
+  })
+_sym_db.RegisterMessage(SoundGeneratorParameters)
+
+LevelNodeSound = _reflection.GeneratedProtocolMessageType('LevelNodeSound', (_message.Message,), {
+  'DESCRIPTOR' : _LEVELNODESOUND,
+  '__module__' : 'types_pb2'
+  # @@protoc_insertion_point(class_scope:COD.Types.LevelNodeSound)
+  })
+_sym_db.RegisterMessage(LevelNodeSound)
 
 AnimationFrame = _reflection.GeneratedProtocolMessageType('AnimationFrame', (_message.Message,), {
   'DESCRIPTOR' : _ANIMATIONFRAME,

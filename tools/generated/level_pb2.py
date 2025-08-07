@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0blevel.proto\x12\tCOD.Level\x1a\x0btypes.proto\"\x90\x02\n\x05Level\x12\x15\n\rformatVersion\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0c\n\x04tags\x18\t \x03(\t\x12\x10\n\x08\x63reators\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x12\n\ncomplexity\x18\x05 \x01(\r\x12\x1a\n\x12maxCheckpointCount\x18\x07 \x01(\r\x12\x35\n\x10\x61mbienceSettings\x18\x08 \x01(\x0b\x32\x1b.COD.Types.AmbienceSettings\x12\x1b\n\x13\x64\x65\x66\x61ultSpawnPointID\x18\n \x01(\x04\x12(\n\nlevelNodes\x18\x06 \x03(\x0b\x32\x14.COD.Types.LevelNodeb\x06proto3'
+  serialized_pb=b'\n\x0blevel.proto\x12\tCOD.Level\x1a\x0btypes.proto\"\xa2\x02\n\x05Level\x12\x15\n\rformatVersion\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0c\n\x04tags\x18\t \x03(\t\x12\x10\n\x08\x63reators\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x12\n\ncomplexity\x18\x05 \x01(\r\x12\x1a\n\x12maxCheckpointCount\x18\x07 \x01(\r\x12\x35\n\x10\x61mbienceSettings\x18\x08 \x01(\x0b\x32\x1b.COD.Types.AmbienceSettings\x12\x1b\n\x13\x64\x65\x66\x61ultSpawnPointID\x18\n \x01(\x04\x12(\n\nlevelNodes\x18\x06 \x03(\x0b\x32\x14.COD.Types.LevelNode\x12\x10\n\x08unlisted\x18\x0b \x01(\x08\x62\x06proto3'
   ,
   dependencies=[types__pb2.DESCRIPTOR,])
 
@@ -105,6 +105,13 @@ _LEVEL = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='unlisted', full_name='COD.Level.Level.unlisted', index=10,
+      number=11, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -118,7 +125,7 @@ _LEVEL = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=40,
-  serialized_end=312,
+  serialized_end=330,
 )
 
 _LEVEL.fields_by_name['ambienceSettings'].message_type = types__pb2._AMBIENCESETTINGS

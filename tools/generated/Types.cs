@@ -87,50 +87,80 @@ namespace COD.Types {
             "dmVyc2UYBCABKAgSNAoEbW9kZRgKIAEoDjImLkNPRC5UeXBlcy5UcmlnZ2Vy",
             "VGFyZ2V0QW5pbWF0aW9uLk1vZGUiUwoETW9kZRIICgRTVE9QEAASCQoFU1RB",
             "UlQQARIKCgZUT0dHTEUQAhISCg5UT0dHTEVfUkVWRVJTRRADEgsKB1JFU1RB",
-            "UlQQBBIJCgVSRVNFVBAFIkQKFVRyaWdnZXJUYXJnZXRTdWJMZXZlbBIXCg9s",
-            "ZXZlbElkZW50aWZpZXIYASABKAkSEgoKc3Bhd25Qb2ludBgCIAEoCSKiAQoN",
-            "VHJpZ2dlclRhcmdldBJDChZ0cmlnZ2VyVGFyZ2V0QW5pbWF0aW9uGAEgASgL",
-            "MiEuQ09ELlR5cGVzLlRyaWdnZXJUYXJnZXRBbmltYXRpb25IABJBChV0cmln",
-            "Z2VyVGFyZ2V0U3ViTGV2ZWwYAiABKAsyIC5DT0QuVHlwZXMuVHJpZ2dlclRh",
-            "cmdldFN1YkxldmVsSABCCQoHY29udGVudCKiAgoQTGV2ZWxOb2RlVHJpZ2dl",
-            "chIoCgVzaGFwZRgBIAEoDjIZLkNPRC5UeXBlcy5MZXZlbE5vZGVTaGFwZRIj",
-            "Cghwb3NpdGlvbhgCIAEoCzIRLkNPRC5UeXBlcy5WZWN0b3ISIAoFc2NhbGUY",
-            "AyABKAsyES5DT0QuVHlwZXMuVmVjdG9yEicKCHJvdGF0aW9uGAQgASgLMhUu",
-            "Q09ELlR5cGVzLlF1YXRlcm5pb24SEAoIaXNTaGFyZWQYBSABKAgSMAoOdHJp",
-            "Z2dlclNvdXJjZXMYBiADKAsyGC5DT0QuVHlwZXMuVHJpZ2dlclNvdXJjZRIw",
-            "Cg50cmlnZ2VyVGFyZ2V0cxgHIAMoCzIYLkNPRC5UeXBlcy5UcmlnZ2VyVGFy",
-            "Z2V0ImwKDkFuaW1hdGlvbkZyYW1lEgwKBHRpbWUYASABKAISIwoIcG9zaXRp",
-            "b24YAiABKAsyES5DT0QuVHlwZXMuVmVjdG9yEicKCHJvdGF0aW9uGAMgASgL",
-            "MhUuQ09ELlR5cGVzLlF1YXRlcm5pb24irgEKCUFuaW1hdGlvbhIMCgRuYW1l",
-            "GAEgASgJEikKBmZyYW1lcxgCIAMoCzIZLkNPRC5UeXBlcy5BbmltYXRpb25G",
-            "cmFtZRIxCglkaXJlY3Rpb24YAyABKA4yHi5DT0QuVHlwZXMuQW5pbWF0aW9u",
-            "LkRpcmVjdGlvbhINCgVzcGVlZBgEIAEoAiImCglEaXJlY3Rpb24SCwoHUkVT",
-            "VEFSVBAAEgwKCFBJTkdQT05HEAEiswUKCUxldmVsTm9kZRIQCghpc0xvY2tl",
-            "ZBgGIAEoCBIzCg5sZXZlbE5vZGVTdGFydBgBIAEoCzIZLkNPRC5UeXBlcy5M",
-            "ZXZlbE5vZGVTdGFydEgAEjUKD2xldmVsTm9kZUZpbmlzaBgCIAEoCzIaLkNP",
-            "RC5UeXBlcy5MZXZlbE5vZGVGaW5pc2hIABI1Cg9sZXZlbE5vZGVTdGF0aWMY",
-            "AyABKAsyGi5DT0QuVHlwZXMuTGV2ZWxOb2RlU3RhdGljSAASMQoNbGV2ZWxO",
-            "b2RlU2lnbhgEIAEoCzIYLkNPRC5UeXBlcy5MZXZlbE5vZGVTaWduSAASOwoS",
-            "bGV2ZWxOb2RlQ3J1bWJsaW5nGAUgASgLMh0uQ09ELlR5cGVzLkxldmVsTm9k",
-            "ZUNydW1ibGluZ0gAEjMKDmxldmVsTm9kZUdyb3VwGAcgASgLMhkuQ09ELlR5",
-            "cGVzLkxldmVsTm9kZUdyb3VwSAASNwoQbGV2ZWxOb2RlR3Jhdml0eRgIIAEo",
-            "CzIbLkNPRC5UeXBlcy5MZXZlbE5vZGVHcmF2aXR5SAASQwoWbGV2ZWxOb2Rl",
-            "TG9iYnlUZXJtaW5hbBgJIAEoCzIhLkNPRC5UeXBlcy5MZXZlbE5vZGVMb2Ji",
-            "eVRlcm1pbmFsSAASNwoQbGV2ZWxOb2RlVHJpZ2dlchgKIAEoCzIbLkNPRC5U",
-            "eXBlcy5MZXZlbE5vZGVUcmlnZ2VySAASRwoYbGV2ZWxOb2RlUGFydGljbGVF",
-            "bWl0dGVyGAsgASgLMiMuQ09ELlR5cGVzLkxldmVsTm9kZVBhcnRpY2xlRW1p",
-            "dHRlckgAEigKCmFuaW1hdGlvbnMYDyADKAsyFC5DT0QuVHlwZXMuQW5pbWF0",
-            "aW9uEhcKD2FjdGl2ZUFuaW1hdGlvbhgQIAEoBUIJCgdjb250ZW50KtEBCg5M",
-            "ZXZlbE5vZGVTaGFwZRIJCgVTVEFSVBAAEgoKBkZJTklTSBABEggKBFNJR04Q",
-            "AhILCgdHUkFWSVRZEAMSEQoNTE9CQllURVJNSU5BTBAEEhQKEFBBUlRJQ0xF",
-            "X0VNSVRURVIQBRIcChhfX0VORF9PRl9TUEVDSUFMX1BBUlRTX18QBhIJCgRD",
-            "VUJFEOgHEgsKBlNQSEVSRRDpBxINCghDWUxJTkRFUhDqBxIMCgdQWVJBTUlE",
-            "EOsHEgoKBVBSSVNNEOwHEgkKBENPTkUQ7QcqxAEKEUxldmVsTm9kZU1hdGVy",
-            "aWFsEgsKB0RFRkFVTFQQABINCglHUkFCQkFCTEUQARIHCgNJQ0UQAhIICgRM",
-            "QVZBEAMSCAoEV09PRBAEEg4KCkdSQVBQTEFCTEUQBRITCg9HUkFQUExBQkxF",
-            "X0xBVkEQBhIXChNHUkFCQkFCTEVfQ1JVTUJMSU5HEAcSEwoPREVGQVVMVF9D",
-            "T0xPUkVEEAgSDAoIQk9VTkNJTkcQCRIICgRTTk9XEAoSCwoHVFJJR0dFUhAL",
-            "YgZwcm90bzM="));
+            "UlQQBBIJCgVSRVNFVBAFIqkBChJUcmlnZ2VyVGFyZ2V0U291bmQSEAoIb2Jq",
+            "ZWN0SUQYASABKAQSMAoEbW9kZRgCIAEoDjIiLkNPRC5UeXBlcy5UcmlnZ2Vy",
+            "VGFyZ2V0U291bmQuTW9kZRIOCgZyZXBlYXQYAyABKAgiPwoETW9kZRIICgRT",
+            "VE9QEAASCQoFU1RBUlQQARIKCgZUT0dHTEUQAhILCgdSRVNUQVJUEAMSCQoF",
+            "UkVTRVQQBCJEChVUcmlnZ2VyVGFyZ2V0U3ViTGV2ZWwSFwoPbGV2ZWxJZGVu",
+            "dGlmaWVyGAEgASgJEhIKCnNwYXduUG9pbnQYAiABKAki3wEKDVRyaWdnZXJU",
+            "YXJnZXQSQwoWdHJpZ2dlclRhcmdldEFuaW1hdGlvbhgBIAEoCzIhLkNPRC5U",
+            "eXBlcy5UcmlnZ2VyVGFyZ2V0QW5pbWF0aW9uSAASQQoVdHJpZ2dlclRhcmdl",
+            "dFN1YkxldmVsGAIgASgLMiAuQ09ELlR5cGVzLlRyaWdnZXJUYXJnZXRTdWJM",
+            "ZXZlbEgAEjsKEnRyaWdnZXJUYXJnZXRTb3VuZBgDIAEoCzIdLkNPRC5UeXBl",
+            "cy5UcmlnZ2VyVGFyZ2V0U291bmRIAEIJCgdjb250ZW50IqICChBMZXZlbE5v",
+            "ZGVUcmlnZ2VyEigKBXNoYXBlGAEgASgOMhkuQ09ELlR5cGVzLkxldmVsTm9k",
+            "ZVNoYXBlEiMKCHBvc2l0aW9uGAIgASgLMhEuQ09ELlR5cGVzLlZlY3RvchIg",
+            "CgVzY2FsZRgDIAEoCzIRLkNPRC5UeXBlcy5WZWN0b3ISJwoIcm90YXRpb24Y",
+            "BCABKAsyFS5DT0QuVHlwZXMuUXVhdGVybmlvbhIQCghpc1NoYXJlZBgFIAEo",
+            "CBIwCg50cmlnZ2VyU291cmNlcxgGIAMoCzIYLkNPRC5UeXBlcy5UcmlnZ2Vy",
+            "U291cmNlEjAKDnRyaWdnZXJUYXJnZXRzGAcgAygLMhguQ09ELlR5cGVzLlRy",
+            "aWdnZXJUYXJnZXQipQUKGFNvdW5kR2VuZXJhdG9yUGFyYW1ldGVycxIOCgZ2",
+            "b2x1bWUYASABKAISPgoId2F2ZVR5cGUYAiABKA4yLC5DT0QuVHlwZXMuU291",
+            "bmRHZW5lcmF0b3JQYXJhbWV0ZXJzLldhdmVUeXBlEhYKDmVudmVsb3BlQXR0",
+            "YWNrGAMgASgCEhcKD2VudmVsb3BlU3VzdGFpbhgEIAEoAhIXCg9lbnZlbG9w",
+            "ZVJlbGVhc2UYBSABKAISFQoNZW52ZWxvcGVQdW5jaBgGIAEoAhIVCg1mcmVx",
+            "dWVuY3lCYXNlGAcgASgCEhYKDmZyZXF1ZW5jeUxpbWl0GAggASgCEhUKDWZy",
+            "ZXF1ZW5jeVJhbXAYCSABKAISGgoSZnJlcXVlbmN5RGVsdGFSYW1wGAogASgC",
+            "EhcKD3ZpYnJhdG9TdHJlbmd0aBgLIAEoAhIUCgx2aWJyYXRvU3BlZWQYDCAB",
+            "KAISFAoMcGl0Y2hKdW1wTW9kGA0gASgCEhYKDnBpdGNoSnVtcFNwZWVkGA4g",
+            "ASgCEhEKCWR1dHlDeWNsZRgPIAEoAhIVCg1kdXR5Q3ljbGVSYW1wGBAgASgC",
+            "EhMKC3JlcGVhdFNwZWVkGBEgASgCEhgKEGZsYW5nZXJGcmVxdWVuY3kYEiAB",
+            "KAISFAoMZmxhbmdlckRlcHRoGBMgASgCEh4KFmxvd1Bhc3NGaWx0ZXJGcmVx",
+            "dWVuY3kYFCABKAISHwoXaGlnaFBhc3NGaWx0ZXJGcmVxdWVuY3kYFSABKAIS",
+            "EwoLcmV2ZXJiRGVsYXkYFiABKAISGQoRcmV2ZXJiRGVjYXlGYWN0b3IYFyAB",
+            "KAIiOQoIV2F2ZVR5cGUSCgoGU3F1YXJlEAASDAoIU2F3dG9vdGgQARIICgRT",
+            "aW5lEAISCQoFTm9pc2UQAyLyAQoOTGV2ZWxOb2RlU291bmQSIwoIcG9zaXRp",
+            "b24YASABKAsyES5DT0QuVHlwZXMuVmVjdG9yEicKCHJvdGF0aW9uGAcgASgL",
+            "MhUuQ09ELlR5cGVzLlF1YXRlcm5pb24SNwoKcGFyYW1ldGVycxgCIAEoCzIj",
+            "LkNPRC5UeXBlcy5Tb3VuZEdlbmVyYXRvclBhcmFtZXRlcnMSDAoEbmFtZRgD",
+            "IAEoCRIOCgZyZXBlYXQYBCABKAgSDgoGdm9sdW1lGAUgASgCEhMKC3N0YXJ0",
+            "QWN0aXZlGAYgASgIEhYKDm1heFJhbmdlRmFjdG9yGAggASgCImwKDkFuaW1h",
+            "dGlvbkZyYW1lEgwKBHRpbWUYASABKAISIwoIcG9zaXRpb24YAiABKAsyES5D",
+            "T0QuVHlwZXMuVmVjdG9yEicKCHJvdGF0aW9uGAMgASgLMhUuQ09ELlR5cGVz",
+            "LlF1YXRlcm5pb24ilwIKCUFuaW1hdGlvbhIMCgRuYW1lGAEgASgJEikKBmZy",
+            "YW1lcxgCIAMoCzIZLkNPRC5UeXBlcy5BbmltYXRpb25GcmFtZRIxCglkaXJl",
+            "Y3Rpb24YAyABKA4yHi5DT0QuVHlwZXMuQW5pbWF0aW9uLkRpcmVjdGlvbhIN",
+            "CgVzcGVlZBgEIAEoAhI5Cg1pbnRlcnBvbGF0aW9uGAUgASgOMiIuQ09ELlR5",
+            "cGVzLkFuaW1hdGlvbi5JbnRlcnBvbGF0aW9uIiYKCURpcmVjdGlvbhILCgdS",
+            "RVNUQVJUEAASDAoIUElOR1BPTkcQASIsCg1JbnRlcnBvbGF0aW9uEgoKBkxJ",
+            "TkVBUhAAEg8KC0NBVE1VTExfUk9NEAEihgYKCUxldmVsTm9kZRIQCghpc0xv",
+            "Y2tlZBgGIAEoCBIzCg5sZXZlbE5vZGVTdGFydBgBIAEoCzIZLkNPRC5UeXBl",
+            "cy5MZXZlbE5vZGVTdGFydEgAEjUKD2xldmVsTm9kZUZpbmlzaBgCIAEoCzIa",
+            "LkNPRC5UeXBlcy5MZXZlbE5vZGVGaW5pc2hIABI1Cg9sZXZlbE5vZGVTdGF0",
+            "aWMYAyABKAsyGi5DT0QuVHlwZXMuTGV2ZWxOb2RlU3RhdGljSAASMQoNbGV2",
+            "ZWxOb2RlU2lnbhgEIAEoCzIYLkNPRC5UeXBlcy5MZXZlbE5vZGVTaWduSAAS",
+            "OwoSbGV2ZWxOb2RlQ3J1bWJsaW5nGAUgASgLMh0uQ09ELlR5cGVzLkxldmVs",
+            "Tm9kZUNydW1ibGluZ0gAEjMKDmxldmVsTm9kZUdyb3VwGAcgASgLMhkuQ09E",
+            "LlR5cGVzLkxldmVsTm9kZUdyb3VwSAASNwoQbGV2ZWxOb2RlR3Jhdml0eRgI",
+            "IAEoCzIbLkNPRC5UeXBlcy5MZXZlbE5vZGVHcmF2aXR5SAASQwoWbGV2ZWxO",
+            "b2RlTG9iYnlUZXJtaW5hbBgJIAEoCzIhLkNPRC5UeXBlcy5MZXZlbE5vZGVM",
+            "b2JieVRlcm1pbmFsSAASNwoQbGV2ZWxOb2RlVHJpZ2dlchgKIAEoCzIbLkNP",
+            "RC5UeXBlcy5MZXZlbE5vZGVUcmlnZ2VySAASRwoYbGV2ZWxOb2RlUGFydGlj",
+            "bGVFbWl0dGVyGAsgASgLMiMuQ09ELlR5cGVzLkxldmVsTm9kZVBhcnRpY2xl",
+            "RW1pdHRlckgAEjMKDmxldmVsTm9kZVNvdW5kGAwgASgLMhkuQ09ELlR5cGVz",
+            "LkxldmVsTm9kZVNvdW5kSAASKAoKYW5pbWF0aW9ucxgPIAMoCzIULkNPRC5U",
+            "eXBlcy5BbmltYXRpb24SFwoPYWN0aXZlQW5pbWF0aW9uGBAgASgFEhwKFHdh",
+            "bnRzQ3JlYXRpb25IaXN0b3J5GBEgASgIQgkKB2NvbnRlbnQq8AEKDkxldmVs",
+            "Tm9kZVNoYXBlEgkKBVNUQVJUEAASCgoGRklOSVNIEAESCAoEU0lHThACEgsK",
+            "B0dSQVZJVFkQAxIRCg1MT0JCWVRFUk1JTkFMEAQSFAoQUEFSVElDTEVfRU1J",
+            "VFRFUhAFEgkKBVNPVU5EEAYSHAoYX19FTkRfT0ZfU1BFQ0lBTF9QQVJUU19f",
+            "EAcSCQoEQ1VCRRDoBxILCgZTUEhFUkUQ6QcSDQoIQ1lMSU5ERVIQ6gcSDAoH",
+            "UFlSQU1JRBDrBxIKCgVQUklTTRDsBxIJCgRDT05FEO0HEhIKDVBZUkFNSURT",
+            "UVVBUkUQ7gcqxAEKEUxldmVsTm9kZU1hdGVyaWFsEgsKB0RFRkFVTFQQABIN",
+            "CglHUkFCQkFCTEUQARIHCgNJQ0UQAhIICgRMQVZBEAMSCAoEV09PRBAEEg4K",
+            "CkdSQVBQTEFCTEUQBRITCg9HUkFQUExBQkxFX0xBVkEQBhIXChNHUkFCQkFC",
+            "TEVfQ1JVTUJMSU5HEAcSEwoPREVGQVVMVF9DT0xPUkVEEAgSDAoIQk9VTkNJ",
+            "TkcQCRIICgRTTk9XEAoSCwoHVFJJR0dFUhALYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::COD.Types.LevelNodeShape), typeof(global::COD.Types.LevelNodeMaterial), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -151,12 +181,15 @@ namespace COD.Types {
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerSourceBasic), global::COD.Types.TriggerSourceBasic.Parser, new[]{ "Type" }, null, new[]{ typeof(global::COD.Types.TriggerSourceBasic.Types.Type) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerSource), global::COD.Types.TriggerSource.Parser, new[]{ "TriggerSourceBasic" }, new[]{ "Content" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerTargetAnimation), global::COD.Types.TriggerTargetAnimation.Parser, new[]{ "ObjectID", "AnimationName", "Loop", "Reverse", "Mode" }, null, new[]{ typeof(global::COD.Types.TriggerTargetAnimation.Types.Mode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerTargetSound), global::COD.Types.TriggerTargetSound.Parser, new[]{ "ObjectID", "Mode", "Repeat" }, null, new[]{ typeof(global::COD.Types.TriggerTargetSound.Types.Mode) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerTargetSubLevel), global::COD.Types.TriggerTargetSubLevel.Parser, new[]{ "LevelIdentifier", "SpawnPoint" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerTarget), global::COD.Types.TriggerTarget.Parser, new[]{ "TriggerTargetAnimation", "TriggerTargetSubLevel" }, new[]{ "Content" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.TriggerTarget), global::COD.Types.TriggerTarget.Parser, new[]{ "TriggerTargetAnimation", "TriggerTargetSubLevel", "TriggerTargetSound" }, new[]{ "Content" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.LevelNodeTrigger), global::COD.Types.LevelNodeTrigger.Parser, new[]{ "Shape", "Position", "Scale", "Rotation", "IsShared", "TriggerSources", "TriggerTargets" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.SoundGeneratorParameters), global::COD.Types.SoundGeneratorParameters.Parser, new[]{ "Volume", "WaveType", "EnvelopeAttack", "EnvelopeSustain", "EnvelopeRelease", "EnvelopePunch", "FrequencyBase", "FrequencyLimit", "FrequencyRamp", "FrequencyDeltaRamp", "VibratoStrength", "VibratoSpeed", "PitchJumpMod", "PitchJumpSpeed", "DutyCycle", "DutyCycleRamp", "RepeatSpeed", "FlangerFrequency", "FlangerDepth", "LowPassFilterFrequency", "HighPassFilterFrequency", "ReverbDelay", "ReverbDecayFactor" }, null, new[]{ typeof(global::COD.Types.SoundGeneratorParameters.Types.WaveType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.LevelNodeSound), global::COD.Types.LevelNodeSound.Parser, new[]{ "Position", "Rotation", "Parameters", "Name", "Repeat", "Volume", "StartActive", "MaxRangeFactor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.AnimationFrame), global::COD.Types.AnimationFrame.Parser, new[]{ "Time", "Position", "Rotation" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.Animation), global::COD.Types.Animation.Parser, new[]{ "Name", "Frames", "Direction", "Speed" }, null, new[]{ typeof(global::COD.Types.Animation.Types.Direction) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.LevelNode), global::COD.Types.LevelNode.Parser, new[]{ "IsLocked", "LevelNodeStart", "LevelNodeFinish", "LevelNodeStatic", "LevelNodeSign", "LevelNodeCrumbling", "LevelNodeGroup", "LevelNodeGravity", "LevelNodeLobbyTerminal", "LevelNodeTrigger", "LevelNodeParticleEmitter", "Animations", "ActiveAnimation" }, new[]{ "Content" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.Animation), global::COD.Types.Animation.Parser, new[]{ "Name", "Frames", "Direction", "Speed", "Interpolation" }, null, new[]{ typeof(global::COD.Types.Animation.Types.Direction), typeof(global::COD.Types.Animation.Types.Interpolation) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::COD.Types.LevelNode), global::COD.Types.LevelNode.Parser, new[]{ "IsLocked", "LevelNodeStart", "LevelNodeFinish", "LevelNodeStatic", "LevelNodeSign", "LevelNodeCrumbling", "LevelNodeGroup", "LevelNodeGravity", "LevelNodeLobbyTerminal", "LevelNodeTrigger", "LevelNodeParticleEmitter", "LevelNodeSound", "Animations", "ActiveAnimation", "WantsCreationHistory" }, new[]{ "Content" }, null, null, null)
           }));
     }
     #endregion
@@ -170,13 +203,15 @@ namespace COD.Types {
     [pbr::OriginalName("GRAVITY")] Gravity = 3,
     [pbr::OriginalName("LOBBYTERMINAL")] Lobbyterminal = 4,
     [pbr::OriginalName("PARTICLE_EMITTER")] ParticleEmitter = 5,
-    [pbr::OriginalName("__END_OF_SPECIAL_PARTS__")] EndOfSpecialParts = 6,
+    [pbr::OriginalName("SOUND")] Sound = 6,
+    [pbr::OriginalName("__END_OF_SPECIAL_PARTS__")] EndOfSpecialParts = 7,
     [pbr::OriginalName("CUBE")] Cube = 1000,
     [pbr::OriginalName("SPHERE")] Sphere = 1001,
     [pbr::OriginalName("CYLINDER")] Cylinder = 1002,
     [pbr::OriginalName("PYRAMID")] Pyramid = 1003,
     [pbr::OriginalName("PRISM")] Prism = 1004,
     [pbr::OriginalName("CONE")] Cone = 1005,
+    [pbr::OriginalName("PYRAMIDSQUARE")] Pyramidsquare = 1006,
   }
 
   public enum LevelNodeMaterial {
@@ -5699,6 +5734,274 @@ namespace COD.Types {
 
   }
 
+  public sealed partial class TriggerTargetSound : pb::IMessage<TriggerTargetSound>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TriggerTargetSound> _parser = new pb::MessageParser<TriggerTargetSound>(() => new TriggerTargetSound());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<TriggerTargetSound> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TriggerTargetSound() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TriggerTargetSound(TriggerTargetSound other) : this() {
+      objectID_ = other.objectID_;
+      mode_ = other.mode_;
+      repeat_ = other.repeat_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TriggerTargetSound Clone() {
+      return new TriggerTargetSound(this);
+    }
+
+    /// <summary>Field number for the "objectID" field.</summary>
+    public const int ObjectIDFieldNumber = 1;
+    private ulong objectID_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ulong ObjectID {
+      get { return objectID_; }
+      set {
+        objectID_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 2;
+    private global::COD.Types.TriggerTargetSound.Types.Mode mode_ = global::COD.Types.TriggerTargetSound.Types.Mode.Stop;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.TriggerTargetSound.Types.Mode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "repeat" field.</summary>
+    public const int RepeatFieldNumber = 3;
+    private bool repeat_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Repeat {
+      get { return repeat_; }
+      set {
+        repeat_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as TriggerTargetSound);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(TriggerTargetSound other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ObjectID != other.ObjectID) return false;
+      if (Mode != other.Mode) return false;
+      if (Repeat != other.Repeat) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ObjectID != 0UL) hash ^= ObjectID.GetHashCode();
+      if (Mode != global::COD.Types.TriggerTargetSound.Types.Mode.Stop) hash ^= Mode.GetHashCode();
+      if (Repeat != false) hash ^= Repeat.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ObjectID != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(ObjectID);
+      }
+      if (Mode != global::COD.Types.TriggerTargetSound.Types.Mode.Stop) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Mode);
+      }
+      if (Repeat != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Repeat);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ObjectID != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(ObjectID);
+      }
+      if (Mode != global::COD.Types.TriggerTargetSound.Types.Mode.Stop) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Mode);
+      }
+      if (Repeat != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Repeat);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ObjectID != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(ObjectID);
+      }
+      if (Mode != global::COD.Types.TriggerTargetSound.Types.Mode.Stop) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (Repeat != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(TriggerTargetSound other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ObjectID != 0UL) {
+        ObjectID = other.ObjectID;
+      }
+      if (other.Mode != global::COD.Types.TriggerTargetSound.Types.Mode.Stop) {
+        Mode = other.Mode;
+      }
+      if (other.Repeat != false) {
+        Repeat = other.Repeat;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ObjectID = input.ReadUInt64();
+            break;
+          }
+          case 16: {
+            Mode = (global::COD.Types.TriggerTargetSound.Types.Mode) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Repeat = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            ObjectID = input.ReadUInt64();
+            break;
+          }
+          case 16: {
+            Mode = (global::COD.Types.TriggerTargetSound.Types.Mode) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Repeat = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the TriggerTargetSound message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum Mode {
+        [pbr::OriginalName("STOP")] Stop = 0,
+        [pbr::OriginalName("START")] Start = 1,
+        /// <summary>
+        ///Toggles between start and stop
+        /// </summary>
+        [pbr::OriginalName("TOGGLE")] Toggle = 2,
+        /// <summary>
+        ///Like start, but will always play from the beginning (or end if reverse is on)
+        /// </summary>
+        [pbr::OriginalName("RESTART")] Restart = 3,
+        /// <summary>
+        ///Reset to the initial state, playing looped default animation if there is one
+        /// </summary>
+        [pbr::OriginalName("RESET")] Reset = 4,
+      }
+
+    }
+    #endregion
+
+  }
+
   public sealed partial class TriggerTargetSubLevel : pb::IMessage<TriggerTargetSubLevel>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5711,7 +6014,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[17]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5919,7 +6222,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[18]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5942,6 +6245,9 @@ namespace COD.Types {
           break;
         case ContentOneofCase.TriggerTargetSubLevel:
           TriggerTargetSubLevel = other.TriggerTargetSubLevel.Clone();
+          break;
+        case ContentOneofCase.TriggerTargetSound:
+          TriggerTargetSound = other.TriggerTargetSound.Clone();
           break;
       }
 
@@ -5975,12 +6281,24 @@ namespace COD.Types {
       }
     }
 
+    /// <summary>Field number for the "triggerTargetSound" field.</summary>
+    public const int TriggerTargetSoundFieldNumber = 3;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.TriggerTargetSound TriggerTargetSound {
+      get { return contentCase_ == ContentOneofCase.TriggerTargetSound ? (global::COD.Types.TriggerTargetSound) content_ : null; }
+      set {
+        content_ = value;
+        contentCase_ = value == null ? ContentOneofCase.None : ContentOneofCase.TriggerTargetSound;
+      }
+    }
+
     private object content_;
     /// <summary>Enum of possible cases for the "content" oneof.</summary>
     public enum ContentOneofCase {
       None = 0,
       TriggerTargetAnimation = 1,
       TriggerTargetSubLevel = 2,
+      TriggerTargetSound = 3,
     }
     private ContentOneofCase contentCase_ = ContentOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6009,6 +6327,7 @@ namespace COD.Types {
       }
       if (!object.Equals(TriggerTargetAnimation, other.TriggerTargetAnimation)) return false;
       if (!object.Equals(TriggerTargetSubLevel, other.TriggerTargetSubLevel)) return false;
+      if (!object.Equals(TriggerTargetSound, other.TriggerTargetSound)) return false;
       if (ContentCase != other.ContentCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -6018,6 +6337,7 @@ namespace COD.Types {
       int hash = 1;
       if (contentCase_ == ContentOneofCase.TriggerTargetAnimation) hash ^= TriggerTargetAnimation.GetHashCode();
       if (contentCase_ == ContentOneofCase.TriggerTargetSubLevel) hash ^= TriggerTargetSubLevel.GetHashCode();
+      if (contentCase_ == ContentOneofCase.TriggerTargetSound) hash ^= TriggerTargetSound.GetHashCode();
       hash ^= (int) contentCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -6043,6 +6363,10 @@ namespace COD.Types {
         output.WriteRawTag(18);
         output.WriteMessage(TriggerTargetSubLevel);
       }
+      if (contentCase_ == ContentOneofCase.TriggerTargetSound) {
+        output.WriteRawTag(26);
+        output.WriteMessage(TriggerTargetSound);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6060,6 +6384,10 @@ namespace COD.Types {
         output.WriteRawTag(18);
         output.WriteMessage(TriggerTargetSubLevel);
       }
+      if (contentCase_ == ContentOneofCase.TriggerTargetSound) {
+        output.WriteRawTag(26);
+        output.WriteMessage(TriggerTargetSound);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -6074,6 +6402,9 @@ namespace COD.Types {
       }
       if (contentCase_ == ContentOneofCase.TriggerTargetSubLevel) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(TriggerTargetSubLevel);
+      }
+      if (contentCase_ == ContentOneofCase.TriggerTargetSound) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TriggerTargetSound);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6098,6 +6429,12 @@ namespace COD.Types {
             TriggerTargetSubLevel = new global::COD.Types.TriggerTargetSubLevel();
           }
           TriggerTargetSubLevel.MergeFrom(other.TriggerTargetSubLevel);
+          break;
+        case ContentOneofCase.TriggerTargetSound:
+          if (TriggerTargetSound == null) {
+            TriggerTargetSound = new global::COD.Types.TriggerTargetSound();
+          }
+          TriggerTargetSound.MergeFrom(other.TriggerTargetSound);
           break;
       }
 
@@ -6133,6 +6470,15 @@ namespace COD.Types {
             TriggerTargetSubLevel = subBuilder;
             break;
           }
+          case 26: {
+            global::COD.Types.TriggerTargetSound subBuilder = new global::COD.Types.TriggerTargetSound();
+            if (contentCase_ == ContentOneofCase.TriggerTargetSound) {
+              subBuilder.MergeFrom(TriggerTargetSound);
+            }
+            input.ReadMessage(subBuilder);
+            TriggerTargetSound = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -6165,6 +6511,15 @@ namespace COD.Types {
             TriggerTargetSubLevel = subBuilder;
             break;
           }
+          case 26: {
+            global::COD.Types.TriggerTargetSound subBuilder = new global::COD.Types.TriggerTargetSound();
+            if (contentCase_ == ContentOneofCase.TriggerTargetSound) {
+              subBuilder.MergeFrom(TriggerTargetSound);
+            }
+            input.ReadMessage(subBuilder);
+            TriggerTargetSound = subBuilder;
+            break;
+          }
         }
       }
     }
@@ -6184,7 +6539,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[19]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6568,6 +6923,1435 @@ namespace COD.Types {
 
   }
 
+  public sealed partial class SoundGeneratorParameters : pb::IMessage<SoundGeneratorParameters>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SoundGeneratorParameters> _parser = new pb::MessageParser<SoundGeneratorParameters>(() => new SoundGeneratorParameters());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SoundGeneratorParameters> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SoundGeneratorParameters() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SoundGeneratorParameters(SoundGeneratorParameters other) : this() {
+      volume_ = other.volume_;
+      waveType_ = other.waveType_;
+      envelopeAttack_ = other.envelopeAttack_;
+      envelopeSustain_ = other.envelopeSustain_;
+      envelopeRelease_ = other.envelopeRelease_;
+      envelopePunch_ = other.envelopePunch_;
+      frequencyBase_ = other.frequencyBase_;
+      frequencyLimit_ = other.frequencyLimit_;
+      frequencyRamp_ = other.frequencyRamp_;
+      frequencyDeltaRamp_ = other.frequencyDeltaRamp_;
+      vibratoStrength_ = other.vibratoStrength_;
+      vibratoSpeed_ = other.vibratoSpeed_;
+      pitchJumpMod_ = other.pitchJumpMod_;
+      pitchJumpSpeed_ = other.pitchJumpSpeed_;
+      dutyCycle_ = other.dutyCycle_;
+      dutyCycleRamp_ = other.dutyCycleRamp_;
+      repeatSpeed_ = other.repeatSpeed_;
+      flangerFrequency_ = other.flangerFrequency_;
+      flangerDepth_ = other.flangerDepth_;
+      lowPassFilterFrequency_ = other.lowPassFilterFrequency_;
+      highPassFilterFrequency_ = other.highPassFilterFrequency_;
+      reverbDelay_ = other.reverbDelay_;
+      reverbDecayFactor_ = other.reverbDecayFactor_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SoundGeneratorParameters Clone() {
+      return new SoundGeneratorParameters(this);
+    }
+
+    /// <summary>Field number for the "volume" field.</summary>
+    public const int VolumeFieldNumber = 1;
+    private float volume_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Volume {
+      get { return volume_; }
+      set {
+        volume_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "waveType" field.</summary>
+    public const int WaveTypeFieldNumber = 2;
+    private global::COD.Types.SoundGeneratorParameters.Types.WaveType waveType_ = global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.SoundGeneratorParameters.Types.WaveType WaveType {
+      get { return waveType_; }
+      set {
+        waveType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "envelopeAttack" field.</summary>
+    public const int EnvelopeAttackFieldNumber = 3;
+    private float envelopeAttack_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float EnvelopeAttack {
+      get { return envelopeAttack_; }
+      set {
+        envelopeAttack_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "envelopeSustain" field.</summary>
+    public const int EnvelopeSustainFieldNumber = 4;
+    private float envelopeSustain_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float EnvelopeSustain {
+      get { return envelopeSustain_; }
+      set {
+        envelopeSustain_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "envelopeRelease" field.</summary>
+    public const int EnvelopeReleaseFieldNumber = 5;
+    private float envelopeRelease_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float EnvelopeRelease {
+      get { return envelopeRelease_; }
+      set {
+        envelopeRelease_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "envelopePunch" field.</summary>
+    public const int EnvelopePunchFieldNumber = 6;
+    private float envelopePunch_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float EnvelopePunch {
+      get { return envelopePunch_; }
+      set {
+        envelopePunch_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "frequencyBase" field.</summary>
+    public const int FrequencyBaseFieldNumber = 7;
+    private float frequencyBase_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FrequencyBase {
+      get { return frequencyBase_; }
+      set {
+        frequencyBase_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "frequencyLimit" field.</summary>
+    public const int FrequencyLimitFieldNumber = 8;
+    private float frequencyLimit_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FrequencyLimit {
+      get { return frequencyLimit_; }
+      set {
+        frequencyLimit_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "frequencyRamp" field.</summary>
+    public const int FrequencyRampFieldNumber = 9;
+    private float frequencyRamp_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FrequencyRamp {
+      get { return frequencyRamp_; }
+      set {
+        frequencyRamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "frequencyDeltaRamp" field.</summary>
+    public const int FrequencyDeltaRampFieldNumber = 10;
+    private float frequencyDeltaRamp_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FrequencyDeltaRamp {
+      get { return frequencyDeltaRamp_; }
+      set {
+        frequencyDeltaRamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "vibratoStrength" field.</summary>
+    public const int VibratoStrengthFieldNumber = 11;
+    private float vibratoStrength_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float VibratoStrength {
+      get { return vibratoStrength_; }
+      set {
+        vibratoStrength_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "vibratoSpeed" field.</summary>
+    public const int VibratoSpeedFieldNumber = 12;
+    private float vibratoSpeed_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float VibratoSpeed {
+      get { return vibratoSpeed_; }
+      set {
+        vibratoSpeed_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pitchJumpMod" field.</summary>
+    public const int PitchJumpModFieldNumber = 13;
+    private float pitchJumpMod_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float PitchJumpMod {
+      get { return pitchJumpMod_; }
+      set {
+        pitchJumpMod_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pitchJumpSpeed" field.</summary>
+    public const int PitchJumpSpeedFieldNumber = 14;
+    private float pitchJumpSpeed_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float PitchJumpSpeed {
+      get { return pitchJumpSpeed_; }
+      set {
+        pitchJumpSpeed_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dutyCycle" field.</summary>
+    public const int DutyCycleFieldNumber = 15;
+    private float dutyCycle_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float DutyCycle {
+      get { return dutyCycle_; }
+      set {
+        dutyCycle_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dutyCycleRamp" field.</summary>
+    public const int DutyCycleRampFieldNumber = 16;
+    private float dutyCycleRamp_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float DutyCycleRamp {
+      get { return dutyCycleRamp_; }
+      set {
+        dutyCycleRamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "repeatSpeed" field.</summary>
+    public const int RepeatSpeedFieldNumber = 17;
+    private float repeatSpeed_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float RepeatSpeed {
+      get { return repeatSpeed_; }
+      set {
+        repeatSpeed_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "flangerFrequency" field.</summary>
+    public const int FlangerFrequencyFieldNumber = 18;
+    private float flangerFrequency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FlangerFrequency {
+      get { return flangerFrequency_; }
+      set {
+        flangerFrequency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "flangerDepth" field.</summary>
+    public const int FlangerDepthFieldNumber = 19;
+    private float flangerDepth_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float FlangerDepth {
+      get { return flangerDepth_; }
+      set {
+        flangerDepth_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "lowPassFilterFrequency" field.</summary>
+    public const int LowPassFilterFrequencyFieldNumber = 20;
+    private float lowPassFilterFrequency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float LowPassFilterFrequency {
+      get { return lowPassFilterFrequency_; }
+      set {
+        lowPassFilterFrequency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "highPassFilterFrequency" field.</summary>
+    public const int HighPassFilterFrequencyFieldNumber = 21;
+    private float highPassFilterFrequency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float HighPassFilterFrequency {
+      get { return highPassFilterFrequency_; }
+      set {
+        highPassFilterFrequency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "reverbDelay" field.</summary>
+    public const int ReverbDelayFieldNumber = 22;
+    private float reverbDelay_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float ReverbDelay {
+      get { return reverbDelay_; }
+      set {
+        reverbDelay_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "reverbDecayFactor" field.</summary>
+    public const int ReverbDecayFactorFieldNumber = 23;
+    private float reverbDecayFactor_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float ReverbDecayFactor {
+      get { return reverbDecayFactor_; }
+      set {
+        reverbDecayFactor_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SoundGeneratorParameters);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SoundGeneratorParameters other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Volume, other.Volume)) return false;
+      if (WaveType != other.WaveType) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnvelopeAttack, other.EnvelopeAttack)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnvelopeSustain, other.EnvelopeSustain)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnvelopeRelease, other.EnvelopeRelease)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnvelopePunch, other.EnvelopePunch)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FrequencyBase, other.FrequencyBase)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FrequencyLimit, other.FrequencyLimit)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FrequencyRamp, other.FrequencyRamp)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FrequencyDeltaRamp, other.FrequencyDeltaRamp)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(VibratoStrength, other.VibratoStrength)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(VibratoSpeed, other.VibratoSpeed)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PitchJumpMod, other.PitchJumpMod)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PitchJumpSpeed, other.PitchJumpSpeed)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(DutyCycle, other.DutyCycle)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(DutyCycleRamp, other.DutyCycleRamp)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(RepeatSpeed, other.RepeatSpeed)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FlangerFrequency, other.FlangerFrequency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FlangerDepth, other.FlangerDepth)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(LowPassFilterFrequency, other.LowPassFilterFrequency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(HighPassFilterFrequency, other.HighPassFilterFrequency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ReverbDelay, other.ReverbDelay)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ReverbDecayFactor, other.ReverbDecayFactor)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Volume != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Volume);
+      if (WaveType != global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square) hash ^= WaveType.GetHashCode();
+      if (EnvelopeAttack != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnvelopeAttack);
+      if (EnvelopeSustain != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnvelopeSustain);
+      if (EnvelopeRelease != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnvelopeRelease);
+      if (EnvelopePunch != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnvelopePunch);
+      if (FrequencyBase != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FrequencyBase);
+      if (FrequencyLimit != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FrequencyLimit);
+      if (FrequencyRamp != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FrequencyRamp);
+      if (FrequencyDeltaRamp != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FrequencyDeltaRamp);
+      if (VibratoStrength != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(VibratoStrength);
+      if (VibratoSpeed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(VibratoSpeed);
+      if (PitchJumpMod != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PitchJumpMod);
+      if (PitchJumpSpeed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PitchJumpSpeed);
+      if (DutyCycle != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(DutyCycle);
+      if (DutyCycleRamp != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(DutyCycleRamp);
+      if (RepeatSpeed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(RepeatSpeed);
+      if (FlangerFrequency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FlangerFrequency);
+      if (FlangerDepth != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FlangerDepth);
+      if (LowPassFilterFrequency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(LowPassFilterFrequency);
+      if (HighPassFilterFrequency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(HighPassFilterFrequency);
+      if (ReverbDelay != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ReverbDelay);
+      if (ReverbDecayFactor != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ReverbDecayFactor);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Volume != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(Volume);
+      }
+      if (WaveType != global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) WaveType);
+      }
+      if (EnvelopeAttack != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(EnvelopeAttack);
+      }
+      if (EnvelopeSustain != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(EnvelopeSustain);
+      }
+      if (EnvelopeRelease != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(EnvelopeRelease);
+      }
+      if (EnvelopePunch != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(EnvelopePunch);
+      }
+      if (FrequencyBase != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(FrequencyBase);
+      }
+      if (FrequencyLimit != 0F) {
+        output.WriteRawTag(69);
+        output.WriteFloat(FrequencyLimit);
+      }
+      if (FrequencyRamp != 0F) {
+        output.WriteRawTag(77);
+        output.WriteFloat(FrequencyRamp);
+      }
+      if (FrequencyDeltaRamp != 0F) {
+        output.WriteRawTag(85);
+        output.WriteFloat(FrequencyDeltaRamp);
+      }
+      if (VibratoStrength != 0F) {
+        output.WriteRawTag(93);
+        output.WriteFloat(VibratoStrength);
+      }
+      if (VibratoSpeed != 0F) {
+        output.WriteRawTag(101);
+        output.WriteFloat(VibratoSpeed);
+      }
+      if (PitchJumpMod != 0F) {
+        output.WriteRawTag(109);
+        output.WriteFloat(PitchJumpMod);
+      }
+      if (PitchJumpSpeed != 0F) {
+        output.WriteRawTag(117);
+        output.WriteFloat(PitchJumpSpeed);
+      }
+      if (DutyCycle != 0F) {
+        output.WriteRawTag(125);
+        output.WriteFloat(DutyCycle);
+      }
+      if (DutyCycleRamp != 0F) {
+        output.WriteRawTag(133, 1);
+        output.WriteFloat(DutyCycleRamp);
+      }
+      if (RepeatSpeed != 0F) {
+        output.WriteRawTag(141, 1);
+        output.WriteFloat(RepeatSpeed);
+      }
+      if (FlangerFrequency != 0F) {
+        output.WriteRawTag(149, 1);
+        output.WriteFloat(FlangerFrequency);
+      }
+      if (FlangerDepth != 0F) {
+        output.WriteRawTag(157, 1);
+        output.WriteFloat(FlangerDepth);
+      }
+      if (LowPassFilterFrequency != 0F) {
+        output.WriteRawTag(165, 1);
+        output.WriteFloat(LowPassFilterFrequency);
+      }
+      if (HighPassFilterFrequency != 0F) {
+        output.WriteRawTag(173, 1);
+        output.WriteFloat(HighPassFilterFrequency);
+      }
+      if (ReverbDelay != 0F) {
+        output.WriteRawTag(181, 1);
+        output.WriteFloat(ReverbDelay);
+      }
+      if (ReverbDecayFactor != 0F) {
+        output.WriteRawTag(189, 1);
+        output.WriteFloat(ReverbDecayFactor);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Volume != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(Volume);
+      }
+      if (WaveType != global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) WaveType);
+      }
+      if (EnvelopeAttack != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(EnvelopeAttack);
+      }
+      if (EnvelopeSustain != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(EnvelopeSustain);
+      }
+      if (EnvelopeRelease != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(EnvelopeRelease);
+      }
+      if (EnvelopePunch != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(EnvelopePunch);
+      }
+      if (FrequencyBase != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(FrequencyBase);
+      }
+      if (FrequencyLimit != 0F) {
+        output.WriteRawTag(69);
+        output.WriteFloat(FrequencyLimit);
+      }
+      if (FrequencyRamp != 0F) {
+        output.WriteRawTag(77);
+        output.WriteFloat(FrequencyRamp);
+      }
+      if (FrequencyDeltaRamp != 0F) {
+        output.WriteRawTag(85);
+        output.WriteFloat(FrequencyDeltaRamp);
+      }
+      if (VibratoStrength != 0F) {
+        output.WriteRawTag(93);
+        output.WriteFloat(VibratoStrength);
+      }
+      if (VibratoSpeed != 0F) {
+        output.WriteRawTag(101);
+        output.WriteFloat(VibratoSpeed);
+      }
+      if (PitchJumpMod != 0F) {
+        output.WriteRawTag(109);
+        output.WriteFloat(PitchJumpMod);
+      }
+      if (PitchJumpSpeed != 0F) {
+        output.WriteRawTag(117);
+        output.WriteFloat(PitchJumpSpeed);
+      }
+      if (DutyCycle != 0F) {
+        output.WriteRawTag(125);
+        output.WriteFloat(DutyCycle);
+      }
+      if (DutyCycleRamp != 0F) {
+        output.WriteRawTag(133, 1);
+        output.WriteFloat(DutyCycleRamp);
+      }
+      if (RepeatSpeed != 0F) {
+        output.WriteRawTag(141, 1);
+        output.WriteFloat(RepeatSpeed);
+      }
+      if (FlangerFrequency != 0F) {
+        output.WriteRawTag(149, 1);
+        output.WriteFloat(FlangerFrequency);
+      }
+      if (FlangerDepth != 0F) {
+        output.WriteRawTag(157, 1);
+        output.WriteFloat(FlangerDepth);
+      }
+      if (LowPassFilterFrequency != 0F) {
+        output.WriteRawTag(165, 1);
+        output.WriteFloat(LowPassFilterFrequency);
+      }
+      if (HighPassFilterFrequency != 0F) {
+        output.WriteRawTag(173, 1);
+        output.WriteFloat(HighPassFilterFrequency);
+      }
+      if (ReverbDelay != 0F) {
+        output.WriteRawTag(181, 1);
+        output.WriteFloat(ReverbDelay);
+      }
+      if (ReverbDecayFactor != 0F) {
+        output.WriteRawTag(189, 1);
+        output.WriteFloat(ReverbDecayFactor);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Volume != 0F) {
+        size += 1 + 4;
+      }
+      if (WaveType != global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) WaveType);
+      }
+      if (EnvelopeAttack != 0F) {
+        size += 1 + 4;
+      }
+      if (EnvelopeSustain != 0F) {
+        size += 1 + 4;
+      }
+      if (EnvelopeRelease != 0F) {
+        size += 1 + 4;
+      }
+      if (EnvelopePunch != 0F) {
+        size += 1 + 4;
+      }
+      if (FrequencyBase != 0F) {
+        size += 1 + 4;
+      }
+      if (FrequencyLimit != 0F) {
+        size += 1 + 4;
+      }
+      if (FrequencyRamp != 0F) {
+        size += 1 + 4;
+      }
+      if (FrequencyDeltaRamp != 0F) {
+        size += 1 + 4;
+      }
+      if (VibratoStrength != 0F) {
+        size += 1 + 4;
+      }
+      if (VibratoSpeed != 0F) {
+        size += 1 + 4;
+      }
+      if (PitchJumpMod != 0F) {
+        size += 1 + 4;
+      }
+      if (PitchJumpSpeed != 0F) {
+        size += 1 + 4;
+      }
+      if (DutyCycle != 0F) {
+        size += 1 + 4;
+      }
+      if (DutyCycleRamp != 0F) {
+        size += 2 + 4;
+      }
+      if (RepeatSpeed != 0F) {
+        size += 2 + 4;
+      }
+      if (FlangerFrequency != 0F) {
+        size += 2 + 4;
+      }
+      if (FlangerDepth != 0F) {
+        size += 2 + 4;
+      }
+      if (LowPassFilterFrequency != 0F) {
+        size += 2 + 4;
+      }
+      if (HighPassFilterFrequency != 0F) {
+        size += 2 + 4;
+      }
+      if (ReverbDelay != 0F) {
+        size += 2 + 4;
+      }
+      if (ReverbDecayFactor != 0F) {
+        size += 2 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SoundGeneratorParameters other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Volume != 0F) {
+        Volume = other.Volume;
+      }
+      if (other.WaveType != global::COD.Types.SoundGeneratorParameters.Types.WaveType.Square) {
+        WaveType = other.WaveType;
+      }
+      if (other.EnvelopeAttack != 0F) {
+        EnvelopeAttack = other.EnvelopeAttack;
+      }
+      if (other.EnvelopeSustain != 0F) {
+        EnvelopeSustain = other.EnvelopeSustain;
+      }
+      if (other.EnvelopeRelease != 0F) {
+        EnvelopeRelease = other.EnvelopeRelease;
+      }
+      if (other.EnvelopePunch != 0F) {
+        EnvelopePunch = other.EnvelopePunch;
+      }
+      if (other.FrequencyBase != 0F) {
+        FrequencyBase = other.FrequencyBase;
+      }
+      if (other.FrequencyLimit != 0F) {
+        FrequencyLimit = other.FrequencyLimit;
+      }
+      if (other.FrequencyRamp != 0F) {
+        FrequencyRamp = other.FrequencyRamp;
+      }
+      if (other.FrequencyDeltaRamp != 0F) {
+        FrequencyDeltaRamp = other.FrequencyDeltaRamp;
+      }
+      if (other.VibratoStrength != 0F) {
+        VibratoStrength = other.VibratoStrength;
+      }
+      if (other.VibratoSpeed != 0F) {
+        VibratoSpeed = other.VibratoSpeed;
+      }
+      if (other.PitchJumpMod != 0F) {
+        PitchJumpMod = other.PitchJumpMod;
+      }
+      if (other.PitchJumpSpeed != 0F) {
+        PitchJumpSpeed = other.PitchJumpSpeed;
+      }
+      if (other.DutyCycle != 0F) {
+        DutyCycle = other.DutyCycle;
+      }
+      if (other.DutyCycleRamp != 0F) {
+        DutyCycleRamp = other.DutyCycleRamp;
+      }
+      if (other.RepeatSpeed != 0F) {
+        RepeatSpeed = other.RepeatSpeed;
+      }
+      if (other.FlangerFrequency != 0F) {
+        FlangerFrequency = other.FlangerFrequency;
+      }
+      if (other.FlangerDepth != 0F) {
+        FlangerDepth = other.FlangerDepth;
+      }
+      if (other.LowPassFilterFrequency != 0F) {
+        LowPassFilterFrequency = other.LowPassFilterFrequency;
+      }
+      if (other.HighPassFilterFrequency != 0F) {
+        HighPassFilterFrequency = other.HighPassFilterFrequency;
+      }
+      if (other.ReverbDelay != 0F) {
+        ReverbDelay = other.ReverbDelay;
+      }
+      if (other.ReverbDecayFactor != 0F) {
+        ReverbDecayFactor = other.ReverbDecayFactor;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            Volume = input.ReadFloat();
+            break;
+          }
+          case 16: {
+            WaveType = (global::COD.Types.SoundGeneratorParameters.Types.WaveType) input.ReadEnum();
+            break;
+          }
+          case 29: {
+            EnvelopeAttack = input.ReadFloat();
+            break;
+          }
+          case 37: {
+            EnvelopeSustain = input.ReadFloat();
+            break;
+          }
+          case 45: {
+            EnvelopeRelease = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            EnvelopePunch = input.ReadFloat();
+            break;
+          }
+          case 61: {
+            FrequencyBase = input.ReadFloat();
+            break;
+          }
+          case 69: {
+            FrequencyLimit = input.ReadFloat();
+            break;
+          }
+          case 77: {
+            FrequencyRamp = input.ReadFloat();
+            break;
+          }
+          case 85: {
+            FrequencyDeltaRamp = input.ReadFloat();
+            break;
+          }
+          case 93: {
+            VibratoStrength = input.ReadFloat();
+            break;
+          }
+          case 101: {
+            VibratoSpeed = input.ReadFloat();
+            break;
+          }
+          case 109: {
+            PitchJumpMod = input.ReadFloat();
+            break;
+          }
+          case 117: {
+            PitchJumpSpeed = input.ReadFloat();
+            break;
+          }
+          case 125: {
+            DutyCycle = input.ReadFloat();
+            break;
+          }
+          case 133: {
+            DutyCycleRamp = input.ReadFloat();
+            break;
+          }
+          case 141: {
+            RepeatSpeed = input.ReadFloat();
+            break;
+          }
+          case 149: {
+            FlangerFrequency = input.ReadFloat();
+            break;
+          }
+          case 157: {
+            FlangerDepth = input.ReadFloat();
+            break;
+          }
+          case 165: {
+            LowPassFilterFrequency = input.ReadFloat();
+            break;
+          }
+          case 173: {
+            HighPassFilterFrequency = input.ReadFloat();
+            break;
+          }
+          case 181: {
+            ReverbDelay = input.ReadFloat();
+            break;
+          }
+          case 189: {
+            ReverbDecayFactor = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 13: {
+            Volume = input.ReadFloat();
+            break;
+          }
+          case 16: {
+            WaveType = (global::COD.Types.SoundGeneratorParameters.Types.WaveType) input.ReadEnum();
+            break;
+          }
+          case 29: {
+            EnvelopeAttack = input.ReadFloat();
+            break;
+          }
+          case 37: {
+            EnvelopeSustain = input.ReadFloat();
+            break;
+          }
+          case 45: {
+            EnvelopeRelease = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            EnvelopePunch = input.ReadFloat();
+            break;
+          }
+          case 61: {
+            FrequencyBase = input.ReadFloat();
+            break;
+          }
+          case 69: {
+            FrequencyLimit = input.ReadFloat();
+            break;
+          }
+          case 77: {
+            FrequencyRamp = input.ReadFloat();
+            break;
+          }
+          case 85: {
+            FrequencyDeltaRamp = input.ReadFloat();
+            break;
+          }
+          case 93: {
+            VibratoStrength = input.ReadFloat();
+            break;
+          }
+          case 101: {
+            VibratoSpeed = input.ReadFloat();
+            break;
+          }
+          case 109: {
+            PitchJumpMod = input.ReadFloat();
+            break;
+          }
+          case 117: {
+            PitchJumpSpeed = input.ReadFloat();
+            break;
+          }
+          case 125: {
+            DutyCycle = input.ReadFloat();
+            break;
+          }
+          case 133: {
+            DutyCycleRamp = input.ReadFloat();
+            break;
+          }
+          case 141: {
+            RepeatSpeed = input.ReadFloat();
+            break;
+          }
+          case 149: {
+            FlangerFrequency = input.ReadFloat();
+            break;
+          }
+          case 157: {
+            FlangerDepth = input.ReadFloat();
+            break;
+          }
+          case 165: {
+            LowPassFilterFrequency = input.ReadFloat();
+            break;
+          }
+          case 173: {
+            HighPassFilterFrequency = input.ReadFloat();
+            break;
+          }
+          case 181: {
+            ReverbDelay = input.ReadFloat();
+            break;
+          }
+          case 189: {
+            ReverbDecayFactor = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the SoundGeneratorParameters message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum WaveType {
+        [pbr::OriginalName("Square")] Square = 0,
+        [pbr::OriginalName("Sawtooth")] Sawtooth = 1,
+        [pbr::OriginalName("Sine")] Sine = 2,
+        [pbr::OriginalName("Noise")] Noise = 3,
+      }
+
+    }
+    #endregion
+
+  }
+
+  public sealed partial class LevelNodeSound : pb::IMessage<LevelNodeSound>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<LevelNodeSound> _parser = new pb::MessageParser<LevelNodeSound>(() => new LevelNodeSound());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<LevelNodeSound> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public LevelNodeSound() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public LevelNodeSound(LevelNodeSound other) : this() {
+      position_ = other.position_ != null ? other.position_.Clone() : null;
+      rotation_ = other.rotation_ != null ? other.rotation_.Clone() : null;
+      parameters_ = other.parameters_ != null ? other.parameters_.Clone() : null;
+      name_ = other.name_;
+      repeat_ = other.repeat_;
+      volume_ = other.volume_;
+      startActive_ = other.startActive_;
+      maxRangeFactor_ = other.maxRangeFactor_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public LevelNodeSound Clone() {
+      return new LevelNodeSound(this);
+    }
+
+    /// <summary>Field number for the "position" field.</summary>
+    public const int PositionFieldNumber = 1;
+    private global::COD.Types.Vector position_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.Vector Position {
+      get { return position_; }
+      set {
+        position_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "rotation" field.</summary>
+    public const int RotationFieldNumber = 7;
+    private global::COD.Types.Quaternion rotation_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.Quaternion Rotation {
+      get { return rotation_; }
+      set {
+        rotation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "parameters" field.</summary>
+    public const int ParametersFieldNumber = 2;
+    private global::COD.Types.SoundGeneratorParameters parameters_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.SoundGeneratorParameters Parameters {
+      get { return parameters_; }
+      set {
+        parameters_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 3;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "repeat" field.</summary>
+    public const int RepeatFieldNumber = 4;
+    private bool repeat_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Repeat {
+      get { return repeat_; }
+      set {
+        repeat_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "volume" field.</summary>
+    public const int VolumeFieldNumber = 5;
+    private float volume_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Volume {
+      get { return volume_; }
+      set {
+        volume_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "startActive" field.</summary>
+    public const int StartActiveFieldNumber = 6;
+    private bool startActive_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool StartActive {
+      get { return startActive_; }
+      set {
+        startActive_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "maxRangeFactor" field.</summary>
+    public const int MaxRangeFactorFieldNumber = 8;
+    private float maxRangeFactor_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float MaxRangeFactor {
+      get { return maxRangeFactor_; }
+      set {
+        maxRangeFactor_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as LevelNodeSound);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(LevelNodeSound other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Position, other.Position)) return false;
+      if (!object.Equals(Rotation, other.Rotation)) return false;
+      if (!object.Equals(Parameters, other.Parameters)) return false;
+      if (Name != other.Name) return false;
+      if (Repeat != other.Repeat) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Volume, other.Volume)) return false;
+      if (StartActive != other.StartActive) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MaxRangeFactor, other.MaxRangeFactor)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (position_ != null) hash ^= Position.GetHashCode();
+      if (rotation_ != null) hash ^= Rotation.GetHashCode();
+      if (parameters_ != null) hash ^= Parameters.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Repeat != false) hash ^= Repeat.GetHashCode();
+      if (Volume != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Volume);
+      if (StartActive != false) hash ^= StartActive.GetHashCode();
+      if (MaxRangeFactor != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MaxRangeFactor);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (position_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Position);
+      }
+      if (parameters_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Parameters);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Name);
+      }
+      if (Repeat != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Repeat);
+      }
+      if (Volume != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(Volume);
+      }
+      if (StartActive != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(StartActive);
+      }
+      if (rotation_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Rotation);
+      }
+      if (MaxRangeFactor != 0F) {
+        output.WriteRawTag(69);
+        output.WriteFloat(MaxRangeFactor);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (position_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Position);
+      }
+      if (parameters_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Parameters);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Name);
+      }
+      if (Repeat != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Repeat);
+      }
+      if (Volume != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(Volume);
+      }
+      if (StartActive != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(StartActive);
+      }
+      if (rotation_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Rotation);
+      }
+      if (MaxRangeFactor != 0F) {
+        output.WriteRawTag(69);
+        output.WriteFloat(MaxRangeFactor);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (position_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Position);
+      }
+      if (rotation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Rotation);
+      }
+      if (parameters_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Parameters);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Repeat != false) {
+        size += 1 + 1;
+      }
+      if (Volume != 0F) {
+        size += 1 + 4;
+      }
+      if (StartActive != false) {
+        size += 1 + 1;
+      }
+      if (MaxRangeFactor != 0F) {
+        size += 1 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(LevelNodeSound other) {
+      if (other == null) {
+        return;
+      }
+      if (other.position_ != null) {
+        if (position_ == null) {
+          Position = new global::COD.Types.Vector();
+        }
+        Position.MergeFrom(other.Position);
+      }
+      if (other.rotation_ != null) {
+        if (rotation_ == null) {
+          Rotation = new global::COD.Types.Quaternion();
+        }
+        Rotation.MergeFrom(other.Rotation);
+      }
+      if (other.parameters_ != null) {
+        if (parameters_ == null) {
+          Parameters = new global::COD.Types.SoundGeneratorParameters();
+        }
+        Parameters.MergeFrom(other.Parameters);
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Repeat != false) {
+        Repeat = other.Repeat;
+      }
+      if (other.Volume != 0F) {
+        Volume = other.Volume;
+      }
+      if (other.StartActive != false) {
+        StartActive = other.StartActive;
+      }
+      if (other.MaxRangeFactor != 0F) {
+        MaxRangeFactor = other.MaxRangeFactor;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (position_ == null) {
+              Position = new global::COD.Types.Vector();
+            }
+            input.ReadMessage(Position);
+            break;
+          }
+          case 18: {
+            if (parameters_ == null) {
+              Parameters = new global::COD.Types.SoundGeneratorParameters();
+            }
+            input.ReadMessage(Parameters);
+            break;
+          }
+          case 26: {
+            Name = input.ReadString();
+            break;
+          }
+          case 32: {
+            Repeat = input.ReadBool();
+            break;
+          }
+          case 45: {
+            Volume = input.ReadFloat();
+            break;
+          }
+          case 48: {
+            StartActive = input.ReadBool();
+            break;
+          }
+          case 58: {
+            if (rotation_ == null) {
+              Rotation = new global::COD.Types.Quaternion();
+            }
+            input.ReadMessage(Rotation);
+            break;
+          }
+          case 69: {
+            MaxRangeFactor = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (position_ == null) {
+              Position = new global::COD.Types.Vector();
+            }
+            input.ReadMessage(Position);
+            break;
+          }
+          case 18: {
+            if (parameters_ == null) {
+              Parameters = new global::COD.Types.SoundGeneratorParameters();
+            }
+            input.ReadMessage(Parameters);
+            break;
+          }
+          case 26: {
+            Name = input.ReadString();
+            break;
+          }
+          case 32: {
+            Repeat = input.ReadBool();
+            break;
+          }
+          case 45: {
+            Volume = input.ReadFloat();
+            break;
+          }
+          case 48: {
+            StartActive = input.ReadBool();
+            break;
+          }
+          case 58: {
+            if (rotation_ == null) {
+              Rotation = new global::COD.Types.Quaternion();
+            }
+            input.ReadMessage(Rotation);
+            break;
+          }
+          case 69: {
+            MaxRangeFactor = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class AnimationFrame : pb::IMessage<AnimationFrame>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6580,7 +8364,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[20]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6842,7 +8626,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[21]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6863,6 +8647,7 @@ namespace COD.Types {
       frames_ = other.frames_.Clone();
       direction_ = other.direction_;
       speed_ = other.speed_;
+      interpolation_ = other.interpolation_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6914,6 +8699,17 @@ namespace COD.Types {
       }
     }
 
+    /// <summary>Field number for the "interpolation" field.</summary>
+    public const int InterpolationFieldNumber = 5;
+    private global::COD.Types.Animation.Types.Interpolation interpolation_ = global::COD.Types.Animation.Types.Interpolation.Linear;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.Animation.Types.Interpolation Interpolation {
+      get { return interpolation_; }
+      set {
+        interpolation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Animation);
@@ -6931,6 +8727,7 @@ namespace COD.Types {
       if(!frames_.Equals(other.frames_)) return false;
       if (Direction != other.Direction) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Speed, other.Speed)) return false;
+      if (Interpolation != other.Interpolation) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6941,6 +8738,7 @@ namespace COD.Types {
       hash ^= frames_.GetHashCode();
       if (Direction != global::COD.Types.Animation.Types.Direction.Restart) hash ^= Direction.GetHashCode();
       if (Speed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Speed);
+      if (Interpolation != global::COD.Types.Animation.Types.Interpolation.Linear) hash ^= Interpolation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6970,6 +8768,10 @@ namespace COD.Types {
         output.WriteRawTag(37);
         output.WriteFloat(Speed);
       }
+      if (Interpolation != global::COD.Types.Animation.Types.Interpolation.Linear) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Interpolation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6992,6 +8794,10 @@ namespace COD.Types {
         output.WriteRawTag(37);
         output.WriteFloat(Speed);
       }
+      if (Interpolation != global::COD.Types.Animation.Types.Interpolation.Linear) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Interpolation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -7010,6 +8816,9 @@ namespace COD.Types {
       }
       if (Speed != 0F) {
         size += 1 + 4;
+      }
+      if (Interpolation != global::COD.Types.Animation.Types.Interpolation.Linear) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Interpolation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7031,6 +8840,9 @@ namespace COD.Types {
       }
       if (other.Speed != 0F) {
         Speed = other.Speed;
+      }
+      if (other.Interpolation != global::COD.Types.Animation.Types.Interpolation.Linear) {
+        Interpolation = other.Interpolation;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7060,6 +8872,10 @@ namespace COD.Types {
           }
           case 37: {
             Speed = input.ReadFloat();
+            break;
+          }
+          case 40: {
+            Interpolation = (global::COD.Types.Animation.Types.Interpolation) input.ReadEnum();
             break;
           }
         }
@@ -7092,6 +8908,10 @@ namespace COD.Types {
             Speed = input.ReadFloat();
             break;
           }
+          case 40: {
+            Interpolation = (global::COD.Types.Animation.Types.Interpolation) input.ReadEnum();
+            break;
+          }
         }
       }
     }
@@ -7112,6 +8932,11 @@ namespace COD.Types {
         [pbr::OriginalName("PINGPONG")] Pingpong = 1,
       }
 
+      public enum Interpolation {
+        [pbr::OriginalName("LINEAR")] Linear = 0,
+        [pbr::OriginalName("CATMULL_ROM")] CatmullRom = 1,
+      }
+
     }
     #endregion
 
@@ -7129,7 +8954,7 @@ namespace COD.Types {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[22]; }
+      get { return global::COD.Types.TypesReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7149,6 +8974,7 @@ namespace COD.Types {
       isLocked_ = other.isLocked_;
       animations_ = other.animations_.Clone();
       activeAnimation_ = other.activeAnimation_;
+      wantsCreationHistory_ = other.wantsCreationHistory_;
       switch (other.ContentCase) {
         case ContentOneofCase.LevelNodeStart:
           LevelNodeStart = other.LevelNodeStart.Clone();
@@ -7179,6 +9005,9 @@ namespace COD.Types {
           break;
         case ContentOneofCase.LevelNodeParticleEmitter:
           LevelNodeParticleEmitter = other.LevelNodeParticleEmitter.Clone();
+          break;
+        case ContentOneofCase.LevelNodeSound:
+          LevelNodeSound = other.LevelNodeSound.Clone();
           break;
       }
 
@@ -7311,6 +9140,17 @@ namespace COD.Types {
       }
     }
 
+    /// <summary>Field number for the "levelNodeSound" field.</summary>
+    public const int LevelNodeSoundFieldNumber = 12;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::COD.Types.LevelNodeSound LevelNodeSound {
+      get { return contentCase_ == ContentOneofCase.LevelNodeSound ? (global::COD.Types.LevelNodeSound) content_ : null; }
+      set {
+        content_ = value;
+        contentCase_ = value == null ? ContentOneofCase.None : ContentOneofCase.LevelNodeSound;
+      }
+    }
+
     /// <summary>Field number for the "animations" field.</summary>
     public const int AnimationsFieldNumber = 15;
     private static readonly pb::FieldCodec<global::COD.Types.Animation> _repeated_animations_codec
@@ -7338,6 +9178,20 @@ namespace COD.Types {
       }
     }
 
+    /// <summary>Field number for the "wantsCreationHistory" field.</summary>
+    public const int WantsCreationHistoryFieldNumber = 17;
+    private bool wantsCreationHistory_;
+    /// <summary>
+    ///Player still dragging this from the menu and creation is yet to be added to the undo history.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool WantsCreationHistory {
+      get { return wantsCreationHistory_; }
+      set {
+        wantsCreationHistory_ = value;
+      }
+    }
+
     private object content_;
     /// <summary>Enum of possible cases for the "content" oneof.</summary>
     public enum ContentOneofCase {
@@ -7352,6 +9206,7 @@ namespace COD.Types {
       LevelNodeLobbyTerminal = 9,
       LevelNodeTrigger = 10,
       LevelNodeParticleEmitter = 11,
+      LevelNodeSound = 12,
     }
     private ContentOneofCase contentCase_ = ContentOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7389,8 +9244,10 @@ namespace COD.Types {
       if (!object.Equals(LevelNodeLobbyTerminal, other.LevelNodeLobbyTerminal)) return false;
       if (!object.Equals(LevelNodeTrigger, other.LevelNodeTrigger)) return false;
       if (!object.Equals(LevelNodeParticleEmitter, other.LevelNodeParticleEmitter)) return false;
+      if (!object.Equals(LevelNodeSound, other.LevelNodeSound)) return false;
       if(!animations_.Equals(other.animations_)) return false;
       if (ActiveAnimation != other.ActiveAnimation) return false;
+      if (WantsCreationHistory != other.WantsCreationHistory) return false;
       if (ContentCase != other.ContentCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -7409,8 +9266,10 @@ namespace COD.Types {
       if (contentCase_ == ContentOneofCase.LevelNodeLobbyTerminal) hash ^= LevelNodeLobbyTerminal.GetHashCode();
       if (contentCase_ == ContentOneofCase.LevelNodeTrigger) hash ^= LevelNodeTrigger.GetHashCode();
       if (contentCase_ == ContentOneofCase.LevelNodeParticleEmitter) hash ^= LevelNodeParticleEmitter.GetHashCode();
+      if (contentCase_ == ContentOneofCase.LevelNodeSound) hash ^= LevelNodeSound.GetHashCode();
       hash ^= animations_.GetHashCode();
       if (ActiveAnimation != 0) hash ^= ActiveAnimation.GetHashCode();
+      if (WantsCreationHistory != false) hash ^= WantsCreationHistory.GetHashCode();
       hash ^= (int) contentCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -7472,10 +9331,18 @@ namespace COD.Types {
         output.WriteRawTag(90);
         output.WriteMessage(LevelNodeParticleEmitter);
       }
+      if (contentCase_ == ContentOneofCase.LevelNodeSound) {
+        output.WriteRawTag(98);
+        output.WriteMessage(LevelNodeSound);
+      }
       animations_.WriteTo(output, _repeated_animations_codec);
       if (ActiveAnimation != 0) {
         output.WriteRawTag(128, 1);
         output.WriteInt32(ActiveAnimation);
+      }
+      if (WantsCreationHistory != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(WantsCreationHistory);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -7530,10 +9397,18 @@ namespace COD.Types {
         output.WriteRawTag(90);
         output.WriteMessage(LevelNodeParticleEmitter);
       }
+      if (contentCase_ == ContentOneofCase.LevelNodeSound) {
+        output.WriteRawTag(98);
+        output.WriteMessage(LevelNodeSound);
+      }
       animations_.WriteTo(ref output, _repeated_animations_codec);
       if (ActiveAnimation != 0) {
         output.WriteRawTag(128, 1);
         output.WriteInt32(ActiveAnimation);
+      }
+      if (WantsCreationHistory != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(WantsCreationHistory);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -7577,9 +9452,15 @@ namespace COD.Types {
       if (contentCase_ == ContentOneofCase.LevelNodeParticleEmitter) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LevelNodeParticleEmitter);
       }
+      if (contentCase_ == ContentOneofCase.LevelNodeSound) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LevelNodeSound);
+      }
       size += animations_.CalculateSize(_repeated_animations_codec);
       if (ActiveAnimation != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(ActiveAnimation);
+      }
+      if (WantsCreationHistory != false) {
+        size += 2 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7598,6 +9479,9 @@ namespace COD.Types {
       animations_.Add(other.animations_);
       if (other.ActiveAnimation != 0) {
         ActiveAnimation = other.ActiveAnimation;
+      }
+      if (other.WantsCreationHistory != false) {
+        WantsCreationHistory = other.WantsCreationHistory;
       }
       switch (other.ContentCase) {
         case ContentOneofCase.LevelNodeStart:
@@ -7659,6 +9543,12 @@ namespace COD.Types {
             LevelNodeParticleEmitter = new global::COD.Types.LevelNodeParticleEmitter();
           }
           LevelNodeParticleEmitter.MergeFrom(other.LevelNodeParticleEmitter);
+          break;
+        case ContentOneofCase.LevelNodeSound:
+          if (LevelNodeSound == null) {
+            LevelNodeSound = new global::COD.Types.LevelNodeSound();
+          }
+          LevelNodeSound.MergeFrom(other.LevelNodeSound);
           break;
       }
 
@@ -7770,12 +9660,25 @@ namespace COD.Types {
             LevelNodeParticleEmitter = subBuilder;
             break;
           }
+          case 98: {
+            global::COD.Types.LevelNodeSound subBuilder = new global::COD.Types.LevelNodeSound();
+            if (contentCase_ == ContentOneofCase.LevelNodeSound) {
+              subBuilder.MergeFrom(LevelNodeSound);
+            }
+            input.ReadMessage(subBuilder);
+            LevelNodeSound = subBuilder;
+            break;
+          }
           case 122: {
             animations_.AddEntriesFrom(input, _repeated_animations_codec);
             break;
           }
           case 128: {
             ActiveAnimation = input.ReadInt32();
+            break;
+          }
+          case 136: {
+            WantsCreationHistory = input.ReadBool();
             break;
           }
         }
@@ -7886,12 +9789,25 @@ namespace COD.Types {
             LevelNodeParticleEmitter = subBuilder;
             break;
           }
+          case 98: {
+            global::COD.Types.LevelNodeSound subBuilder = new global::COD.Types.LevelNodeSound();
+            if (contentCase_ == ContentOneofCase.LevelNodeSound) {
+              subBuilder.MergeFrom(LevelNodeSound);
+            }
+            input.ReadMessage(subBuilder);
+            LevelNodeSound = subBuilder;
+            break;
+          }
           case 122: {
             animations_.AddEntriesFrom(ref input, _repeated_animations_codec);
             break;
           }
           case 128: {
             ActiveAnimation = input.ReadInt32();
+            break;
+          }
+          case 136: {
+            WantsCreationHistory = input.ReadBool();
             break;
           }
         }
