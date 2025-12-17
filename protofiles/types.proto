@@ -2,390 +2,418 @@ syntax = "proto3";
 
 package COD.Types;
 
-message Vector
-{
-	float x = 1;
-	float y = 2;
-	float z = 3;
+import "gasm.proto";
+
+message Vector {
+    float x = 1;
+    float y = 2;
+    float z = 3;
 }
 
-message Vector2
-{
-	float x = 1;
-	float y = 2;
+message Vector2 {
+    float x = 1;
+    float y = 2;
 }
 
-message Quaternion
-{
-	float x = 1;
-	float y = 2;
-	float z = 3;
-	float w = 4;
+message Quaternion {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    float w = 4;
 }
 
-message Color
-{
-	float r = 1;
-	float g = 2;
-	float b = 3;
-	float a = 4;
+message Color {
+    float r = 1;
+    float g = 2;
+    float b = 3;
+    float a = 4;
 }
 
-message AmbienceSettings
-{
-	Color skyZenithColor = 1;
-	Color skyHorizonColor = 2;
-
-	float sunAltitude = 3;
-	float sunAzimuth = 4;
-	float sunSize = 5;
-
-	float fogDensity = 6;
+message AmbienceSettings {
+    Color skyZenithColor = 1;
+    Color skyHorizonColor = 2;
+    float sunAltitude = 3;
+    float sunAzimuth = 4;
+    float sunSize = 5;
+    float fogDensity = 6;
 }
 
-enum LevelNodeShape
-{
-	START = 0;
-	FINISH = 1;
-	SIGN = 2;
-	GRAVITY = 3;
-	LOBBYTERMINAL = 4;
-	PARTICLE_EMITTER = 5;
-	SOUND = 6;
-
-	__END_OF_SPECIAL_PARTS__ = 7;
-
-	CUBE = 1000;
-	SPHERE = 1001;
-	CYLINDER = 1002;
-	PYRAMID = 1003;
-	PRISM = 1004;
-	CONE = 1005;
-	PYRAMIDSQUARE = 1006;
+message LevelNodeGroup {
+    Vector position = 1;
+    Vector scale = 2;
+    Quaternion rotation = 3;
+    repeated LevelNode childNodes = 4;
+    string name = 5;
+    bool physicsObject = 6;
+    bool localPhysicsObject = 7;
+    float mass = 8;
 }
 
-enum LevelNodeMaterial
-{
-	DEFAULT = 0;
-	GRABBABLE = 1;
-	ICE = 2;
-	LAVA = 3;
-	WOOD = 4;
-	GRAPPLABLE = 5;
-	GRAPPLABLE_LAVA = 6;
-
-	GRABBABLE_CRUMBLING = 7;
-	DEFAULT_COLORED = 8;
-	BOUNCING = 9;
-	SNOW = 10;
-
-	TRIGGER = 11; //Not actually written into files and the number on this could be changed without issues. Only used as enum value internally.
+message LevelNodeStart {
+    Vector position = 1;
+    Quaternion rotation = 2;
+    float radius = 3;
+    string name = 4;
 }
 
-message LevelNodeGroup
-{
-	Vector position = 1;
-	Vector scale = 2;
-	Quaternion rotation = 3;
-
-	//This is where level nodes that are part of the group are stored when saving to file / loading
-	//It is ok to be empty when networking a groups transform
-	//There is an additional message for networking grouping and ungrouping (LevelNodeGroupRequest, LevelNodeGroupResponse)
-	//When sending the full level on a new player joining the editor, first the level nodes are sent on their own and then a group response to group them
-	repeated LevelNode childNodes = 4;
+message LevelNodeFinish {
+    Vector position = 1;
+    float radius = 2;
 }
 
-message LevelNodeStart
-{
-	Vector position = 1;
-	Quaternion rotation = 2; //Should always be upright and is meant to be used for the player rotation on spawn
-	float radius = 3;
-	string name = 4;
+message LevelNodeStatic {
+    LevelNodeShape shape = 1;
+    LevelNodeMaterial material = 2;
+    Vector position = 3;
+    Vector scale = 4;
+    Quaternion rotation = 5;
+    Color color1 = 6;
+    Color color2 = 9;
+    bool isNeon = 7;
+    bool isTransparent = 8;
+    bool isGrabbable = 10;
+    bool isGrapplable = 11;
+    bool isPassable = 12;
 }
 
-message LevelNodeFinish
-{
-	Vector position = 1;
-	float radius = 2;
+message LevelNodeCrumbling {
+    LevelNodeShape shape = 1;
+    LevelNodeMaterial material = 2;
+    Vector position = 3;
+    Vector scale = 4;
+    Quaternion rotation = 5;
+    float stableTime = 6;
+    float respawnTime = 7;
 }
 
-message LevelNodeStatic
-{
-	LevelNodeShape shape = 1; //Must be one of CUBE, SPHERE, CYLINDER, PYRAMID, PRISM
-	LevelNodeMaterial material = 2; //Can not be GRABBABLE_CRUMBLING
-
-	Vector position = 3;
-	Vector scale = 4;
-	Quaternion rotation = 5;
-
-	Color color1 = 6;
-	Color color2 = 9; //Used for colored lava blocks, blending between the two colors, but also used for specularity on colored default blocks!
-
-	bool isNeon = 7;
-	bool isTransparent = 8;
+message LevelNodeSign {
+    Vector position = 1;
+    Quaternion rotation = 2;
+    float scale = 4;
+    string text = 3;
+    Color color = 5;
+    
+    SignFontWeight weight = 7;
+    enum SignFontWeight {
+        REGULAR = 0;
+        LIGHT = 1;
+        SEMIBOLD = 2;
+        BOLD = 3;
+        ITALIC = 4;
+    }
+    
+    bool hideModel = 6;
 }
 
-message LevelNodeCrumbling
-{
-	LevelNodeShape shape = 1; //Must be one of CUBE, SPHERE, CYLINDER, PYRAMID, PRISM
-	LevelNodeMaterial material = 2; //Must be GRABBABLE_CRUMBLING
-
-	Vector position = 3;
-	Vector scale = 4;
-	Quaternion rotation = 5;
-
-	float stableTime = 6;
-	float respawnTime = 7;
+message LevelNodeGravity {
+    Mode mode = 1;
+    enum Mode {
+        DEFAULT = 0;
+        NOLEGS = 1;
+    }
+    
+    Vector position = 2;
+    Vector scale = 3;
+    Quaternion rotation = 4;
+    Vector direction = 5;
 }
 
-message LevelNodeSign
-{
-	Vector position = 1;
-	Quaternion rotation = 2;
-
-	string text = 3;
+message LevelNodeLobbyTerminal {
+    Vector position = 2;
+    Quaternion rotation = 4;
 }
 
-message LevelNodeGravity
-{
-	enum Mode
-	{
-		DEFAULT = 0;
-		NOLEGS = 1; //gtag like movement with the head on the ground, also no leg collisions with lava
-	}
-
-	Mode mode = 1;
-
-	Vector position = 2;
-	Vector scale = 3;
-	Quaternion rotation = 4;
-
-	Vector direction = 5;
+message LevelNodeParticleEmitter {
+    Vector position = 1;
+    Vector scale = 2;
+    Quaternion rotation = 3;
+    uint32 particlesPerSecond = 5;
+    Vector2 lifeSpan = 6;
+    Color startColor = 7;
+    Color endColor = 8;
+    Vector2 startSize = 9;
+    Vector2 endSize = 10;
+    Vector velocity = 14;
+    Vector velocityMin = 15;
+    Vector velocityMax = 16;
+    Vector accelerationMin = 17;
+    Vector accelerationMax = 18;
 }
 
-message LevelNodeLobbyTerminal
-{
-	Vector position = 2;
-	Quaternion rotation = 4;
+message TriggerSourceBasic {
+    Type type = 1;
+    enum Type {
+        HAND = 0;
+        HEAD = 1;
+        GRAPPLE = 2;
+        FEET = 3;
+        BLOCK = 4;
+    }
 }
 
-message LevelNodeParticleEmitter
-{
-	Vector position = 1;
-	Vector scale = 2;
-	Quaternion rotation = 3;
-
-	uint32 particlesPerSecond = 5;
-
-	Vector2 lifeSpan = 6;
-	Color startColor = 7;
-	Color endColor = 8;
-	Vector2 startSize = 9;
-	Vector2 endSize = 10;
-	
-	Vector velocity = 14;
-	Vector velocityMin = 15;
-	Vector velocityMax = 16;
-	Vector accelerationMin = 17;
-	Vector accelerationMax = 18;
+message TriggerSourceBlockNames {
+    repeated string names = 1;
 }
 
-message TriggerSourceBasic
-{
-	enum Type
-	{
-		HAND = 0;
-		HEAD = 1;
-		GRAPPLE = 2;
-		FEET = 3;
-		BLOCK = 4;
-	}
-
-	Type type = 1;
+message TriggerSource {
+    oneof content {
+        TriggerSourceBasic triggerSourceBasic = 1;
+        TriggerSourceBlockNames triggerSourceBlockNames = 2;
+    }
 }
 
-message TriggerSource
-{
-	oneof content
-	{
-		TriggerSourceBasic triggerSourceBasic = 1;
-	}
+message TriggerTargetAnimation {
+    uint64 objectID = 1;
+    string animationName = 2;
+    bool loop = 3;
+    bool reverse = 4;
+    
+    Mode mode = 10;
+    enum Mode {
+        STOP = 0;
+        START = 1;
+        TOGGLE = 2;
+        TOGGLE_REVERSE = 3;
+        RESTART = 4;
+        RESET = 5;
+    }
 }
 
-message TriggerTargetAnimation
-{
-	enum Mode
-	{
-		STOP = 0;
-		START = 1;
-		TOGGLE = 2; //Toggles between start and stop
-		TOGGLE_REVERSE = 3; //Toggles between playing the animation forwards and backwards
-		RESTART = 4; //Like start, but will always play from the beginning (or end if reverse is on)
-		RESET = 5; //Reset to the initial state, playing looped default animation if there is one
-	}
-
-	uint64 objectID = 1;
-	string animationName = 2;
-
-	bool loop = 3; //Make the animation repeat endlessly until it is stopped
-	bool reverse = 4; //Make the animation play backwards
-
-	Mode mode = 10;
+message TriggerTargetSound {
+    uint64 objectID = 1;
+    
+    Mode mode = 2;
+    enum Mode {
+        STOP = 0;
+        START = 1;
+        TOGGLE = 2;
+        RESTART = 3;
+        RESET = 4;
+    }
+    
+    bool repeat = 3;
 }
 
-message TriggerTargetSound
-{
-	enum Mode
-	{
-		STOP = 0;
-		START = 1;
-		TOGGLE = 2; //Toggles between start and stop
-		RESTART = 3; //Like start, but will always play from the beginning (or end if reverse is on)
-		RESET = 4; //Reset to the initial state, playing looped default animation if there is one
-	}
-
-	uint64 objectID = 1;
-	
-	Mode mode = 2;
-	bool repeat = 3;
+message TriggerTargetGASM {
+    uint64 objectID = 1;
+    
+    Mode mode = 2;
+    enum Mode {
+        STOP = 0;
+        START = 1;
+        TOGGLE = 2;
+        RESTART = 3;
+        RESET = 4;
+    }
 }
 
-message TriggerTargetSubLevel
-{
-	string levelIdentifier = 1;
-	string spawnPoint = 2;
+message TriggerTargetSubLevel {
+    string levelIdentifier = 1;
+    string spawnPoint = 2;
 }
 
-message TriggerTarget
-{
-	oneof content
-	{
-		TriggerTargetAnimation triggerTargetAnimation = 1;
-		TriggerTargetSubLevel triggerTargetSubLevel = 2;
-		TriggerTargetSound triggerTargetSound = 3;
-	}
+message TriggerTargetAmbience {
+    Color skyColor0 = 1;
+    Color skyColor1 = 2;
+    float sunAltitude = 3;
+    float sunAzimuth = 4;
+    float sunSize = 5;
+    float fogDensity = 6;
+    float changeDuration = 7;
+    InterpolationType interpolationType = 8;
 }
 
-message LevelNodeTrigger
-{
-	LevelNodeShape shape = 1; //Must be one of CUBE, SPHERE, CYLINDER, PYRAMID, PRISM
-
-	Vector position = 2;
-	Vector scale = 3;
-	Quaternion rotation = 4;
-
-	bool isShared = 5;
-
-	repeated TriggerSource triggerSources = 6;
-	repeated TriggerTarget triggerTargets = 7;
+message TriggerTarget {
+    Mode mode = 4;
+    enum Mode {
+        ONENTER = 0;
+        ONLEAVE = 1;
+        ONENTERONLEAVE = 2;
+        NONE = 3;
+    }
+    
+    oneof content {
+        TriggerTargetAnimation triggerTargetAnimation = 1;
+        TriggerTargetSubLevel triggerTargetSubLevel = 2;
+        TriggerTargetSound triggerTargetSound = 3;
+        TriggerTargetAmbience triggerTargetAmbience = 6;
+        TriggerTargetGASM triggerTargetGASM = 7;
+    }
 }
 
-message SoundGeneratorParameters
-{
-	enum WaveType
-	{
-		Square = 0;
-		Sawtooth = 1;
-		Sine = 2;
-		Noise = 3;
-	}
-
-	float volume = 1;
-
-	WaveType waveType = 2;
-
-	float envelopeAttack = 3;
-	float envelopeSustain = 4;
-	float envelopeRelease = 5;
-	float envelopePunch = 6;
-
-	float frequencyBase = 7;
-	float frequencyLimit = 8;
-	float frequencyRamp = 9;
-	float frequencyDeltaRamp = 10;
-
-	float vibratoStrength = 11;
-	float vibratoSpeed = 12;
-
-	float pitchJumpMod = 13;
-	float pitchJumpSpeed = 14;
-
-	float dutyCycle = 15;
-	float dutyCycleRamp = 16;
-
-	float repeatSpeed = 17;
-
-	float flangerFrequency = 18;
-	float flangerDepth = 19;
-
-	float lowPassFilterFrequency = 20;
-	float highPassFilterFrequency = 21;
-	
-	float reverbDelay = 22;
-	float reverbDecayFactor = 23;
+message LevelNodeTrigger {
+    LevelNodeShape shape = 1;
+    Vector position = 2;
+    Vector scale = 3;
+    Quaternion rotation = 4;
+    bool isShared = 5;
+    repeated TriggerSource triggerSources = 6;
+    repeated TriggerTarget triggerTargets = 7;
 }
 
-message LevelNodeSound
-{
-	Vector position = 1;
-	Quaternion rotation = 7;
-
-	SoundGeneratorParameters parameters = 2;
-	string name = 3;
-	bool repeat = 4;
-	float volume = 5;
-	bool startActive = 6;
-	float maxRangeFactor = 8;
+message SoundGeneratorParameters {
+    float volume = 1;
+    
+    WaveType waveType = 2;
+    enum WaveType {
+        Square = 0;
+        Sawtooth = 1;
+        Sine = 2;
+        Noise = 3;
+    }
+    
+    float envelopeAttack = 3;
+    float envelopeSustain = 4;
+    float envelopeRelease = 5;
+    float envelopePunch = 6;
+    float frequencyBase = 7;
+    float frequencyLimit = 8;
+    float frequencyRamp = 9;
+    float frequencyDeltaRamp = 10;
+    float vibratoStrength = 11;
+    float vibratoSpeed = 12;
+    float pitchJumpMod = 13;
+    float pitchJumpSpeed = 14;
+    float dutyCycle = 15;
+    float dutyCycleRamp = 16;
+    float repeatSpeed = 17;
+    float flangerFrequency = 18;
+    float flangerDepth = 19;
+    float lowPassFilterFrequency = 20;
+    float highPassFilterFrequency = 21;
+    float reverbDelay = 22;
+    float reverbDecayFactor = 23;
 }
 
-message AnimationFrame
-{
-	float time = 1;
-	Vector position = 2;
-	Quaternion rotation = 3;
+message LevelNodeSound {
+    Vector position = 1;
+    Quaternion rotation = 7;
+    SoundGeneratorParameters parameters = 2;
+    string name = 3;
+    bool repeat = 4;
+    float volume = 5;
+    bool startActive = 6;
+    float maxRangeFactor = 8;
 }
 
-message Animation
-{
-	enum Direction
-	{
-		RESTART = 0; //After the last frame, jump back to the first frame
-		PINGPONG = 1; //After the last frame, play the animation backwards
-	}
-
-	enum Interpolation
-	{
-		LINEAR = 0;
-		CATMULL_ROM = 1;
-	}
-
-	string name = 1;
-	repeated AnimationFrame frames = 2;
-	Direction direction = 3;
-	float speed = 4;
-	Interpolation interpolation = 5;
+message LevelNodeGASM {
+    Vector position = 1;
+    Vector scale = 5;
+    Quaternion rotation = 6;
+    GASM.ProgramData program = 2;
+    
+    repeated Connection connections = 3;
+    message Connection {
+        uint64 objectID = 1;
+        string name = 2;
+        repeated GASM.ProgrammablePropertyData properties = 3;
+    }
+    
+    bool startActive = 4;
 }
 
-message LevelNode
-{
-	bool isLocked = 6;
+message AnimationFrame {
+    float time = 1;
+    Vector position = 2;
+    Quaternion rotation = 3;
+}
 
-	oneof content
-	{
-		LevelNodeStart levelNodeStart = 1;
-		LevelNodeFinish levelNodeFinish = 2;
-		LevelNodeStatic levelNodeStatic = 3;
-		LevelNodeSign levelNodeSign = 4;
-		LevelNodeCrumbling levelNodeCrumbling = 5;
-		LevelNodeGroup levelNodeGroup = 7;
-		LevelNodeGravity levelNodeGravity = 8;
-		LevelNodeLobbyTerminal levelNodeLobbyTerminal = 9;
-		LevelNodeTrigger levelNodeTrigger = 10;
-		LevelNodeParticleEmitter levelNodeParticleEmitter = 11;
-		LevelNodeSound levelNodeSound = 12;
-	}
+message Animation {
+    string name = 1;
+    repeated AnimationFrame frames = 2;
+    
+    Direction direction = 3;
+    enum Direction {
+        RESTART = 0;
+        PINGPONG = 1;
+    }
+    
+    float speed = 4;
+    
+    Interpolation interpolation = 5;
+    enum Interpolation {
+        LINEAR = 0;
+        CATMULL_ROM = 1;
+    }
+}
 
-	repeated Animation animations = 15; //A level node can have any number (might limit it in the UI) of named animations
-	int32 activeAnimation = 16; //Index into animations, -1 if it is not playing an animation at the start, ignored if there are no animations (so will default to 0 in that case)
-	bool wantsCreationHistory = 17; //Player still dragging this from the menu and creation is yet to be added to the undo history.
+message LevelNode {
+    bool isLocked = 6;
+    repeated Animation animations = 15;
+    int32 activeAnimation = 16;
+    bool wantsCreationHistory = 17;
+    
+    oneof content {
+        LevelNodeStart levelNodeStart = 1;
+        LevelNodeFinish levelNodeFinish = 2;
+        LevelNodeStatic levelNodeStatic = 3;
+        LevelNodeSign levelNodeSign = 4;
+        LevelNodeCrumbling levelNodeCrumbling = 5;
+        LevelNodeGroup levelNodeGroup = 7;
+        LevelNodeGravity levelNodeGravity = 8;
+        LevelNodeLobbyTerminal levelNodeLobbyTerminal = 9;
+        LevelNodeTrigger levelNodeTrigger = 10;
+        LevelNodeParticleEmitter levelNodeParticleEmitter = 11;
+        LevelNodeSound levelNodeSound = 12;
+        LevelNodeGASM levelNodeGASM = 13;
+    }
+}
+
+enum LevelNodeShape {
+    START = 0;
+    FINISH = 1;
+    SIGN = 2;
+    GRAVITY = 3;
+    LOBBYTERMINAL = 4;
+    PARTICLE_EMITTER = 5;
+    SOUND = 6;
+    GASM = 7;
+    __END_OF_SPECIAL_PARTS__ = 8;
+    CUBE = 1000;
+    SPHERE = 1001;
+    CYLINDER = 1002;
+    PYRAMID = 1003;
+    PRISM = 1004;
+    CONE = 1005;
+    PYRAMIDSQUARE = 1006;
+}
+
+enum LevelNodeMaterial {
+    DEFAULT = 0;
+    GRABBABLE = 1;
+    ICE = 2;
+    LAVA = 3;
+    WOOD = 4;
+    GRAPPLABLE = 5;
+    GRAPPLABLE_LAVA = 6;
+    GRABBABLE_CRUMBLING = 7;
+    DEFAULT_COLORED = 8;
+    BOUNCING = 9;
+    SNOW = 10;
+    TRIGGER = 11;
+}
+
+enum InterpolationType {
+    LINEAR = 0;
+    QUADRATIC_EASE_IN = 1;
+    QUADRATIC_EASE_OUT = 2;
+    QUADRATIC_EASE_IN_OUT = 3;
+    SINUSOIDAL_EASE_IN = 4;
+    SINUSOIDAL_EASE_OUT = 5;
+    SINUSOIDAL_EASE_IN_OUT = 6;
+    EXPONENTIAL_EASE_IN = 7;
+    EXPONENTIAL_EASE_OUT = 8;
+    EXPONENTIAL_EASE_IN_OUT = 9;
+    CIRCULAR_EASE_IN = 10;
+    CIRCULAR_EASE_OUT = 11;
+    CIRCULAR_EASE_IN_OUT = 12;
+    CUBIC_EASE_IN = 13;
+    CUBIC_EASE_OUT = 14;
+    CUBIC_EASE_IN_OUT = 15;
+    QUARTIC_EASE_IN = 16;
+    QUARTIC_EASE_OUT = 17;
+    QUARTIC_EASE_IN_OUT = 18;
+    QUINTIC_EASE_IN = 19;
+    QUINTIC_EASE_OUT = 20;
+    QUINTIC_EASE_IN_OUT = 21;
 }

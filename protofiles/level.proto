@@ -4,22 +4,17 @@ package COD.Level;
 
 import "types.proto";
 
-message Level
-{
-	uint32 formatVersion = 1;
-
-	string title = 2;
-	repeated string tags = 9;
-	string creators = 3;
-	string description = 4;
-	uint32 complexity = 5;
-	uint32 maxCheckpointCount = 7;
-
-	Types.AmbienceSettings ambienceSettings = 8;
-	
-	uint64 defaultSpawnPointID = 10;
-
-	repeated Types.LevelNode levelNodes = 6;
-	
-	bool unlisted = 11;
+message Level {
+    uint32 formatVersion = 1;
+    string title = 2;
+    repeated string tags = 9;
+    string creators = 3;
+    string description = 4;
+    uint32 complexity = 5;
+    uint32 maxCheckpointCount = 7;
+    Types.AmbienceSettings ambienceSettings = 8;
+    uint64 defaultSpawnPointID = 10;
+    repeated Types.LevelNode levelNodes = 6;
+    bool unlisted = 11;
+    bool showReplays = 12;
 }

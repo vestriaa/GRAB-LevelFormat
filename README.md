@@ -14,12 +14,15 @@ GRAB stores everything in ```Android/data/com.slindev.grab``` or ```Android/data
 Your own levels that can be opened and saved in the editor are stored in ```levels/user``` The file name should have the ```.level``` extension, but the name itself can be anything. By default the game uses timestamps for the names to prevent any naming conflicts with already existing levels. Level file names only need to be unique for a user unless you want to update an existing level.
 
 At the root there is the Level object which can have some basic properties:
-* formatVersion - uint32 - This is used to filter out levels on old game versions that use new features. The current version is 15.
+* formatVersion - uint32 - This is used to filter out levels on old game versions that use new features. The current version is 18.
 * title - string - The name of the level.
 * creators - string - A comma seperated list of the names of the people that worked on the level.
 * description - string - A short description of what to expect from the level.
 * complexity - uint32 - The complexity value should be calculated from the levels levelNodes. It's the sum of each level nodes complexity. Start and finish cost 0, signs cost 5, crumbling nodes cost 3 and everything else costs 2. These costs might change and the server may verify the value in the future.
 * maxCheckpointCount - uint32 - The maximum number of checkpoints that can be used in a level.
+* tags - string - A comma separated list of up to 2 tags that best describe the level. Available tags include: parkour, slide, grapple, climb, fling, fangame, showcase, puzzle, horror, story, minigame, innovative, boss, ride, chart.
+* unlisted - bool - If true, the level will appear in listings or search results and can only be accessed through a level that includes it as a sublevel
+* showReplays - bool - If true, replays are available for the level. On the leaderboard, a button will appear next to times that have a replay. Levels created before replay support have this set to false.
 
 It also has a **levelNodes** property.
 This is an array of all the level nodes the level is made of. Each level node defines one of the supported level building blocks. There are several different level node types with different properties. Check "types.proto" for details.
